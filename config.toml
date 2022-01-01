@@ -4,11 +4,11 @@ defaultContentLanguage = "en"
 hasCJKLanguage = true
 title = "RustTalk"
 theme = "zen"
-copyright = "2021 rusttalk.github.io"
-googleAnalytics = "UA-50745138-3"
+copyright = "2022 rusttalk.github.io"
+googleAnalytics = "UA-50745138-4"
 paginate = 10
 paginatePath = "page"
-enableGitInfo = false
+enableGitInfo = true
 
 [frontmatter]
   lastmod = [':git', 'lastmod', ':fileModTime', ':default']
@@ -32,6 +32,11 @@ enableGitInfo = false
   weight = 30
   identifier = "about"
   url = "/about/"
+[[menu.main]]
+  name = "🔥 爱发电 🔥"
+  weight = 50
+  identifier = "afdian"
+  url = "/donate"
 
 [params]
     logo = true
@@ -44,12 +49,12 @@ enableGitInfo = false
     submitted = true
     sidebar = true
     mobileMenu = true
-    copyright = "© 2021 [RustTalk](https://github.com/RustTalk/rusttalk.github.io) Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+    copyright = "© 2022 [RustTalk](https://github.com/RustTalk/rusttalk.github.io) Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
     poweredby = true
     # footer = "footer"
     [params.podcast]
         local = false
-        image = "logo3000.png"
+        image = "logo-3000px.png"
         lang = "zh-cn"
         author = "rusttalk.github.io"
         [params.podcast.category]

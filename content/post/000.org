@@ -1,4 +1,0 @@
-#+TITLE: 000. RustTalk 节目简介
-#+DATE: 2022-01-01T09:11:16+08:00
-
-Hello Rust

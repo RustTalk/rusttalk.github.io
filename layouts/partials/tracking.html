@@ -1,0 +1,26 @@
+{{ if and .Site.Params.piwikTrackerUrl .Site.Params.piwikSiteID -}}
+{{ $script := resources.Get "js/tracking.js" | resources.ExecuteAsTemplate "js/tracking.js" . | minify | fingerprint -}}
+<script src="{{ $script.RelPermalink }}"></script>
+<script defer src="https://{{ .Site.Params.piwikTrackerUrl }}/matomo.js"></script>
+{{ end -}}
+
+{{ if .Site.Params.plausibleSiteID -}}
+<script async defer data-domain="{{ .Site.Params.plausibleSiteID }}" src="{{ .Site.Params.plausibleTrackerURL | default "https://plausible.io/js/plausible.js" }}"></script>
+{{ end -}}
+
+{{ if .Site.GoogleAnalytics -}}
+{{ $script := resources.Get "js/tracking.js" | resources.ExecuteAsTemplate "js/tracking.js" . | minify | fingerprint -}}
+<script src="{{ $script.RelPermalink }}"></script>
+{{ template "_internal/google_analytics.html" . }}
+{{ end -}}
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  if (window.location.hostname === 'localhost') return;
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ed68bc0c523b592e836aa84145b2b8da";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>

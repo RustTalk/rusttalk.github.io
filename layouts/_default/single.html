@@ -1,0 +1,40 @@
+{{ define "main" -}}
+<main class="main layout__main">
+<article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
+<header>
+<h1 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}">{{ .Title }}</h1>
+{{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . }}{{ end -}}
+{{ if .Params.tags }}{{ partial "tags.html" . }}{{ end -}}
+</header>
+<div class="content">
+
+{{ partial "fadian.html" . }}
+{{ .Content }}
+
+{{ if $.Param "relatedposts" | default false }}{{ partial "related.html" . }}{{ end -}}
+
+{{ if ne .Lastmod .Date }}{{ partial "dates.html" . }}{{ end -}}
+</div>
+</article>
+{{ partial "share-buttons.html" . }}
+<hr/>
+<script src="https://utteranc.es/client.js"
+        repo="emacstalk/emacstalk.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<style>
+  article a {
+      text-decoration-color: blue;
+      text-decoration-thickness: 2px;
+  }
+  figure figcaption {
+    text-align: center;
+    font-style: italic;
+    color: grey;
+  }
+</style>
+</main>
+{{ end }}

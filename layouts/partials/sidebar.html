@@ -1,0 +1,56 @@
+{{ $currentSection := .Section -}}
+{{ $currentID := "" -}}
+{{ with .File }}{{ $currentID = .UniqueID }}{{ end -}}
+<aside class="sidebar layout__second-sidebar">
+  <section>
+    <h4 class="menu">收听方式</h4>
+    <ul class="menu">
+      <ol>
+        <a target="_blank" href="/podcast/index.xml" style="display: inline-block; background-color: #FFFFFF; background-image: url(/images/listen-on-embed.svg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; background-position: -230px -653px; height: 40px; width: 160px;">RSS Feed</a>
+      </ol>
+      <ol>
+        <a target="_blank" href="/images/weixin.jpg" style="display: inline-block; background-color: #FFFFFF; background-image: url(/images/gongzhonghao133x35.jpg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; height: 40px; width: 160px;">微信公众号</a>
+      </ol>
+      <ol>
+        <a target="_blank" href="https://www.xiaoyuzhoufm.com/podcast/60eabfdd030f8753b9982047" style="display: inline-block; background-color: #FFFFFF; background-image: url(/images/xiaoyuzhou.jpg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; height: 40px; width: 160px;">小宇宙</a>
+      </ol>
+      <ol>
+        <a target="_blank" href="https://h5.qishuier.com/podcasts/195916240953294849" style="display: inline-block; background-color: #FFFFFF; background-image: url(/images/qishuier160x48.jpg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; height: 40px; width: 160px;">汽水儿</a>
+      </ol>
+      <ol>
+        <a target="_blank" href="https://y.qq.com/n/ryqq/albumDetail/000BkGbT1J1Mo2" style="display: inline-block; background-color: #FFFFFF; background-image: url(/images/qqmusic160x40.jpg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; height: 40px; width: 160px;">QQ 音乐</a>
+      </ol>
+      <ol>
+        <a target="_blank" href="https://music.163.com/#/djradio?id=963834541" style="display: inline-block; background-color: #FFFFFF; background-image: url(/images/netease160x40.jpg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; height: 40px; width: 160px;">网易云音乐</a>
+      </ol>
+      <ol>
+        <a target="_blank" href="https://www.ximalaya.com/keji/50656645/" style="display: inline-block; background-color: #FFFFFF; background-image: url(/images/ximalaya160x40.png); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; height: 40px; width: 160px;">喜马拉雅</a>
+      </ol>
+      <ol>
+        <a target="_blank" href="https://podcasts.apple.com/podcast/emacstalk/id1574036730" style="display: inline-block; background-color: #FFFFFF; background-image: url(/images/listen-on-embed.svg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; background-position: -230px 7px; height: 40px; width: 160px;">Apple Podcasts</a>
+      </ol>
+      <ol>
+        <a target="_blank" href="https://pca.st/hbvw3oxs" style="display: inline-block; background-color: #FFFFFF; background-image: url(/images/listen-on-embed.svg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; background-position: -230px -473px; height: 40px; width: 160px;">Listen on Pocket Casts</a>
+      </ol>
+      <ol>
+        <a target="_blank" href="https://open.spotify.com/show/6QdmFKhhjN6IAhXDIknUqI" style="display: inline-block; background-color: #FFFFFF; background-image: url(/images/listen-on-embed.svg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; background-position: -230px -53px; height: 40px; width: 160px;">Listen on Spotify</a>
+      </ol>
+      <ol>
+        <a target="_blank" href="https://castbox.fm/channel/EmacsTalk-id4367580" style="display: inline-block; background-color: #FFFFFF; background-image: url(/images/listen-on-embed.svg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; background-position: -230px -353px; height: 40px; width: 160px;">Listen on Castbox</a>
+      </ol>
+      <ol>
+        <a target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly9lbWFjc3RhbGsuZ2l0aHViLmlvL3BvZGNhc3QvaW5kZXgueG1s" style="display: inline-block; background-color: #FFFFFF; background-image: url(https://www.gstatic.com/podcasts_console/promote/English_EN/EN_Google_Podcasts_Badge.svg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px;  height: 40px; width: 160px;">Listen on Google</a>
+      </ol>
+    </ul>
+  </section>
+  {{ range .Site.Sections -}}
+  <section>
+    <h4 class="menu"><a href="{{ .RelPermalink }}"{{ if eq $currentSection .Section }} class="active" aria-current="page"{{ end }}>{{ .Title }}</a></h4>
+    <ul class="menu">
+      {{ range .Pages -}}
+      <li><a href="{{ .RelPermalink }}"{{ if eq $currentID .File.UniqueID }} class="active" aria-current="page"{{ end }}>{{ .Title }}</a></li>
+      {{ end -}}
+    </ul>
+  </section>
+  {{ end -}}
+</aside>
