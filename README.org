@@ -1,0 +1,10 @@
+* RustTalk
+
+
+* 建站
+** 初始化
+#+begin_src bash
+git switch --orphan gh-pages
+git commit --allow-empty -m "Initial commit"
+git push -u origin gh-pages
+#+end_src

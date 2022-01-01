@@ -1,0 +1,59 @@
+baseURL = "https://rusttalk.github.io"
+languageCode = "zh-cn"
+defaultContentLanguage = "en"
+hasCJKLanguage = true
+title = "RustTalk"
+theme = "zen"
+copyright = "2021 rusttalk.github.io"
+googleAnalytics = "UA-50745138-3"
+paginate = 10
+paginatePath = "page"
+enableGitInfo = false
+
+[frontmatter]
+  lastmod = [':git', 'lastmod', ':fileModTime', ':default']
+
+[author]
+    name = "写代码的西瓜"
+    email = "rusttalk@liujiacai.net"
+
+[[menu.main]]
+  name = "播客"
+  weight = 20
+  identifier = "podcast"
+  url = "/podcast/"
+[[menu.main]]
+  name = "标签"
+  weight = 22
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "关于"
+  weight = 30
+  identifier = "about"
+  url = "/about/"
+
+[params]
+    logo = true
+    mainSections = ["post", "podcast"]
+    dateformat = "2006-01-02"
+    description = "RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。官网：rusttalk.github.io"
+    feedlinks = false
+    realfavicongenerator = true
+    relatedposts = true
+    submitted = true
+    sidebar = true
+    mobileMenu = true
+    copyright = "© 2021 [RustTalk](https://github.com/RustTalk/rusttalk.github.io) Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+    poweredby = true
+    # footer = "footer"
+    [params.podcast]
+        local = false
+        image = "logo3000.png"
+        lang = "zh-cn"
+        author = "rusttalk.github.io"
+        [params.podcast.category]
+            name = "Technology"
+        [params.podcast.owner]
+            name = "写代码的西瓜"
+            email = "jiacai2050@gmail.com"
