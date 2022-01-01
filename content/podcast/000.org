@@ -19,9 +19,8 @@
 [[/images/weixin.png]]
 
 * 主播介绍
-- 网络 ID：写代码的西瓜
-- 能折腾的人
-- 2 年 Rust 使用经验，本网站所述观点均为个人观点，与我所在公司无关
+- 网络 ID：写代码的西瓜，个人博客：[[https://liujiacai.net/][Keep Coding]]
+- 14 年开始从事编程工作，2 年 Rust 使用经验，本网站所述观点均为个人观点，与我所在公司无关
 - 目前在做的另一档播客：[[https://emacstalk.github.io/][ EmacsTalk]]
 
 
