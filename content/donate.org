@@ -1,9 +1,11 @@
 #+TITLE: 发电方式
 #+DATE: 2022-01-01T16:15:42+08:00
-#+LASTMOD: 2022-01-01T16:01:24+0800
+#+LASTMOD: 2022-01-02T13:01:48+0800
 
 如果您喜欢 RustTalk 这档节目，欢迎为本播客发电支持。❤️
 
+* 爱发电
+- https://afdian.net/@coding-xigua
 * 微信支付
 [[/images/weixinzhifu.jpg]]
 * 支付宝

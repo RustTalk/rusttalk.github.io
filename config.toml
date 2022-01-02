@@ -41,6 +41,11 @@ enableGitInfo = true
 [params]
     logo = true
     mainSections = ["post", "podcast"]
+    fadian = """
+#### 公告栏 -- Bulletin Board
+1. 招募 [Podcast 嘉宾](https://github.com/rusttalk/guests)，分享您与 Rust 的故事
+2. 如果 RustTalk 对您有所帮助，欢迎进行[发电支持](/donate) ❤️
+"""
     dateformat = "2006-01-02"
     description = "RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。官网：rusttalk.github.io"
     feedlinks = false
