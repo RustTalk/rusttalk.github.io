@@ -1,10 +1,25 @@
 * RustTalk
+#+begin_example
+______          _ _____     _ _
+| ___ \        | |_   _|   | | |
+| |_/ /   _ ___| |_| | __ _| | | __
+|    / | | / __| __| |/ _` | | |/ /
+| |\ \ |_| \__ \ |_| | (_| | |   <
+\_| \_\__,_|___/\__\_/\__,_|_|_|\_\
+#+end_example
 
+RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨：
+- 专注 Rust 社区，探索 Rust 社区背后的 *奇人轶事*
+- 不追求「枯燥无味」的干货，更关注「耐人寻味」经验分享
 
-* 建站
-** 初始化
-#+begin_src bash
-git switch --orphan gh-pages
-git commit --allow-empty -m "Initial commit"
-git push -u origin gh-pages
-#+end_src
+** 如果听众对节目有任何问题、建议，欢迎与我联系 🤝🏻
+* 社交平台
+- https://github.com/RustTalk
+- https://twitter.com/RustTalk
+- QQ 听友群：391884085
+- 微信公众号：RustTalk
+  #+CAPTION: 微信公众号
+  https://rusttalk.github.io/images/weixin.png
+
+* 如何参与节目录制
+- https://github.com/RustTalk/guests
