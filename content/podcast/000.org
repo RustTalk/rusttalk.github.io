@@ -16,7 +16,7 @@
 - QQ 听友群：391884085
 - 微信公众号：RustTalk
 #+CAPTION: 微信公众号
-[[/images/weixin.png]]
+[[/images/weixin.jpg]]
 
 * 主播介绍
 - 网络 ID：写代码的西瓜，个人博客：[[https://liujiacai.net/][Keep Coding]]

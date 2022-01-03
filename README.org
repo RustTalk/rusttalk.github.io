@@ -20,7 +20,7 @@ RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨�
 - 微信公众号：RustTalk
   #+CAPTION: 微信公众号
   #+ATTR_HTML: :alt 微信公众号
-  [[./static/images/weixin.png]]
+  [[./static/images/weixin.jpg]]
 
 * 如何参与节目录制
 - https://github.com/RustTalk/guests
