@@ -59,7 +59,7 @@ enableGitInfo = true
     # footer = "footer"
     [params.podcast]
         local = false
-        image = "logo-3000px.png"
+        image = "logo3000.png"
         lang = "zh-cn"
         author = "rusttalk.github.io"
         [params.podcast.category]
