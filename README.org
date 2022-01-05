@@ -1,12 +1,6 @@
 * RustTalk
-#+begin_example
-______          _ _____     _ _
-| ___ \        | |_   _|   | | |
-| |_/ /   _ ___| |_| | __ _| | | __
-|    / | | / __| __| |/ _` | | |/ /
-| |\ \ |_| \__ \ |_| | (_| | |   <
-\_| \_\__,_|___/\__\_/\__,_|_|_|\_\
-#+end_example
+#+CAPTION: RustTalk logo
+[[./static/apple-touch-icon.png]]
 
 RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨：
 - 专注 Rust 社区，探索 Rust 社区背后的 *奇人轶事*
