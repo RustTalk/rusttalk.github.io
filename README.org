@@ -11,6 +11,7 @@ RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨�
 - https://github.com/RustTalk
 - https://twitter.com/RustTalk
 - QQ 听友群：391884085
+- Telegram 听友群：https://t.me/rust_talk
 - 微信公众号：RustTalk
   #+CAPTION: 微信公众号
   #+ATTR_HTML: :alt 微信公众号

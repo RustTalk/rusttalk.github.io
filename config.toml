@@ -22,11 +22,11 @@ enableGitInfo = true
   weight = 20
   identifier = "podcast"
   url = "/podcast/"
-[[menu.main]]
-  name = "标签"
-  weight = 22
-  identifier = "tags"
-  url = "/tags/"
+# [[menu.main]]
+#   name = "标签"
+#   weight = 22
+#   identifier = "tags"
+#   url = "/tags/"
 [[menu.main]]
   name = "关于"
   weight = 30
