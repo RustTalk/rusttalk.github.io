@@ -6,16 +6,18 @@ RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨�
 - 专注 Rust 社区，探索 Rust 社区背后的 *奇人轶事*
 - 不追求「枯燥无味」的干货，更关注「耐人寻味」经验分享
 
-*** 如果听众对节目有任何问题、建议，欢迎与我联系 🤝🏻
 * 社交平台
-- https://github.com/RustTalk
-- https://twitter.com/RustTalk
-- QQ 听友群：391884085
-- Telegram 听友群：https://t.me/rust_talk
+- Twitter：[[https://twitter.com/RustTalk][RustTalk]]
+- 听友群
+  - QQ：391884085
+  - Telegram：https://t.me/rust_talk
 - 微信公众号：RustTalk
   #+CAPTION: 微信公众号
   #+ATTR_HTML: :alt 微信公众号
   [[./static/images/weixin.jpg]]
 
-* 如何参与节目录制
+* 参与录制
 - https://github.com/RustTalk/guests
+
+* 友情推荐
+- [[https://emacstalk.github.io/][EmacsTalk]] :: 一档专注在 Emacs 社区的程序员闲聊节目
