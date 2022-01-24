@@ -1,0 +1,34 @@
+#+TITLE: 001. 与 Folyd 聊 Rust
+#+DATE: 2022-01-23T21:51:49+0800
+#+DRAFT: true
+#+LASTMOD: 2022-01-24T09:21:43+0800
+#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/da9a-audiofreehighqps/50/00/GKwRIJIFpiOtADIlSgEJIDCc.m4a
+#+PODCAST_DURATION: 6:45
+#+PODCAST_LENGTH: 3286346
+
+
+* 时间线
+- 00:00:22 自我介绍
+- 00:00:59 学习 Rust 过程
+- 00:06:37 Rust 语言的特点
+- 00:10:13 Rust 社区文化
+- 00:15:32 Rust 语言的大“坑”
+- 00:19:39 Rust 发展展望
+- 00:21:14 Rust Search Extension 开发经历
+
+
+* Show Notes
+- 嘉宾自我介绍
+  - 网络 ID：[[https://folyd.com/][Folyd]]，[[https://twitter.com/_hisriver][Twitter 帐号]]
+  - 18 年了解 Rust，目前在字节跳动工作
+- [[https://teahour.fm/90][Teahour: #90 - 和 PingCAP CTO 畅谈数据库和编程语言]]
+- 2018-08 出版 [[https://book.douban.com/subject/30312231/][深入浅出 Rust]]
+- [[https://rust-unofficial.github.io/too-many-lists/][Introduction - Learning Rust With Entirely Too Many Linked Lists]]
+- Rust 文档的理念
+  - 注释即文档
+  - 文档即测试
+  - 离线功能做的很好
+- Rust 作者：[[https://everipedia.org/wiki/lang_en/graydon-hoare][Graydon Hoare Wiki & Bio]]
+
+
+15:26， 1
