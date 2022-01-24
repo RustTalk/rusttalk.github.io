@@ -1,7 +1,7 @@
 #+TITLE: 001. 与 Folyd 聊 Rust
 #+DATE: 2022-01-23T21:51:49+0800
 #+DRAFT: true
-#+LASTMOD: 2022-01-24T09:21:43+0800
+#+LASTMOD: 2022-01-24T23:39:28+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/da9a-audiofreehighqps/50/00/GKwRIJIFpiOtADIlSgEJIDCc.m4a
 #+PODCAST_DURATION: 6:45
 #+PODCAST_LENGTH: 3286346
@@ -15,6 +15,7 @@
 - 00:15:32 Rust 语言的大“坑”
 - 00:19:39 Rust 发展展望
 - 00:21:14 Rust Search Extension 开发经历
+- 00:38:45 Rust 标准库贡献经历
 
 
 * Show Notes
@@ -29,6 +30,5 @@
   - 文档即测试
   - 离线功能做的很好
 - Rust 作者：[[https://everipedia.org/wiki/lang_en/graydon-hoare][Graydon Hoare Wiki & Bio]]
-
-
-15:26， 1
+- 2018-03 发布 [[https://rust.extension.sh/][Rust Search Extension]]
+- [[https://zhuanlan.zhihu.com/p/456608171][我的 Rust 搜索半年总结 - 知乎]]
