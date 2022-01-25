@@ -113,9 +113,11 @@ Show Notes
 &lt;/li>
 &lt;li>
 &lt;p>2018-11 发布 &lt;a href="https://rust.extension.sh/">Rust Search Extension&lt;/a>&lt;/p>
-&lt;/li>
+&lt;ul>
 &lt;li>
-&lt;p>&lt;a href="https://zhuanlan.zhihu.com/p/456608171">我的 Rust 搜索半年总结 - 知乎&lt;/a>&lt;/p>
+&lt;p>嘉宾在知乎上的总结：&lt;a href="https://zhuanlan.zhihu.com/p/456608171">我的 Rust 搜索半年总结&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>Rust 标准库二分查找的 PR：&lt;a href="https://github.com/rust-lang/rust/pull/74024">#74024&lt;/a>&lt;/p>
@@ -129,7 +131,7 @@ Show Notes
 &lt;p>波卡公链故障：&lt;a href="https://polkadot.network/blog/a-polkadot-postmortem-24-05-2021/">A Polkadot Postmortem&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>嘉宾针对改故障，在 Twitter 上的&lt;a href="：https://twitter.com/_hisriver/status/1398264047229829129">总结&lt;/a>&lt;/p>
+&lt;p>嘉宾针对该故障，在 Twitter 上的&lt;a href="：https://twitter.com/_hisriver/status/1398264047229829129">总结&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>嘉宾事后给波卡提的 PR：&lt;a href="https://github.com/paritytech/substrate/pull/8943">substrate#8943&lt;/a>&lt;/p>
