@@ -14,22 +14,22 @@
 &lt;div id="outline-text-headline-2" class="outline-text-2">
 &lt;ul>
 &lt;li>
-&lt;p>00:00:22 自我介绍&lt;/p>
+&lt;p>00:00:22 嘉宾自我介绍&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>00:00:59 学习 Rust 过程&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>00:06:37 Rust 语言的特点&lt;/p>
+&lt;p>00:06:37 Rust 语言特点&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>00:10:13 Rust 社区文化&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>00:15:32 Rust 语言的大“坑”&lt;/p>
+&lt;p>00:15:32 Rust 语言大“坑”&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>00:19:39 Rust 发展展望&lt;/p>
+&lt;p>00:19:39 展望 Rust 的未来&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>00:21:14 Rust Search Extension 开发经历&lt;/p>
@@ -79,6 +79,14 @@ Show Notes
 &lt;p>&lt;a href="https://rust-unofficial.github.io/too-many-lists/">Introduction - Learning Rust With Entirely Too Many Linked Lists&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
+&lt;p>Rust 社区文化&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/rust-lang/highfive/pull/367">Add new reviewer to librustdoc static files by Folyd&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
 &lt;p>Rust 文档的理念&lt;/p>
 &lt;ul>
 &lt;li>
@@ -93,13 +101,40 @@ Show Notes
 &lt;/ul>
 &lt;/li>
 &lt;li>
+&lt;p>Rust 未来发展：异步、GAT、错误处理、编译速度等&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/rui314/mold">rui314/mold: mold: A Modern Linker&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
 &lt;p>Rust 作者：&lt;a href="https://everipedia.org/wiki/lang_en/graydon-hoare">Graydon Hoare Wiki &amp;amp; Bio&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>2018-03 发布 &lt;a href="https://rust.extension.sh/">Rust Search Extension&lt;/a>&lt;/p>
+&lt;p>2018-11 发布 &lt;a href="https://rust.extension.sh/">Rust Search Extension&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://zhuanlan.zhihu.com/p/456608171">我的 Rust 搜索半年总结 - 知乎&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Rust 标准库二分查找的 PR：&lt;a href="https://github.com/rust-lang/rust/pull/74024">#74024&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>博客总结：&lt;a href="https://folyd.com/blog/rust-binary-search-pr/">优化 Rust 标准库的 binary_search&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>波卡公链故障：&lt;a href="https://polkadot.network/blog/a-polkadot-postmortem-24-05-2021/">A Polkadot Postmortem&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>嘉宾针对改故障，在 Twitter 上的&lt;a href="：https://twitter.com/_hisriver/status/1398264047229829129">总结&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>嘉宾事后给波卡提的 PR：&lt;a href="https://github.com/paritytech/substrate/pull/8943">substrate#8943&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>嘉宾推荐&lt;/p>
@@ -125,6 +160,9 @@ Show Notes
 &lt;p>&lt;a href="https://book.emacs-china.org/">Master Emacs in 21 Days&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://music.163.com/#/song?id=1380302523">片尾音乐&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;figure>
