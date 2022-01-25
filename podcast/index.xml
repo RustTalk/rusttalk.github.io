@@ -1,4 +1,153 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"><channel><title>RustTalk</title><link>https://rusttalk.github.io/podcast/</link><description>RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。官网：rusttalk.github.io</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>rusttalk@liujiacai.net (写代码的西瓜)</managingEditor><webMaster>rusttalk@liujiacai.net (写代码的西瓜)</webMaster><copyright>2022 rusttalk.github.io</copyright><lastBuildDate>Sat, 01 Jan 2022 09:11:16 +0800</lastBuildDate><atom:link href="https://rusttalk.github.io/podcast/index.xml" rel="self" type="application/rss+xml"/><itunes:image href="https://rusttalk.github.io/logo3000.png"/><itunes:category text="Technology"/><itunes:owner><itunes:name>写代码的西瓜</itunes:name><itunes:email>jiacai2050@gmail.com</itunes:email></itunes:owner><itunes:author>写代码的西瓜</itunes:author><itunes:explicit>false</itunes:explicit><item><title>000. RustTalk 节目简介</title><itunes:title>000. RustTalk 节目简介</itunes:title><link>https://rusttalk.github.io/podcast/000/</link><guid>https://rusttalk.github.io/podcast/000/</guid><pubDate>Sat, 01 Jan 2022 09:11:16 +0800</pubDate><author>rusttalk@liujiacai.net (写代码的西瓜)</author><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"><channel><title>RustTalk</title><link>https://rusttalk.github.io/podcast/</link><description>RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。官网：rusttalk.github.io</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>rusttalk@liujiacai.net (写代码的西瓜)</managingEditor><webMaster>rusttalk@liujiacai.net (写代码的西瓜)</webMaster><copyright>2022 rusttalk.github.io</copyright><lastBuildDate>Sun, 23 Jan 2022 21:51:49 +0800</lastBuildDate><atom:link href="https://rusttalk.github.io/podcast/index.xml" rel="self" type="application/rss+xml"/><itunes:image href="https://rusttalk.github.io/logo3000.png"/><itunes:category text="Technology"/><itunes:owner><itunes:name>写代码的西瓜</itunes:name><itunes:email>jiacai2050@gmail.com</itunes:email></itunes:owner><itunes:author>写代码的西瓜</itunes:author><itunes:explicit>false</itunes:explicit><item><title>001. 与 Folyd 聊他的 Rust 使用经历</title><itunes:title>001. 与 Folyd 聊他的 Rust 使用经历</itunes:title><link>https://rusttalk.github.io/podcast/001/</link><guid>https://rusttalk.github.io/podcast/001/</guid><pubDate>Sun, 23 Jan 2022 21:51:49 +0800</pubDate><author>rusttalk@liujiacai.net (写代码的西瓜)</author><description>
+&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+概要
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>本期嘉宾是 Rust Search Extension 作者朱霜（网络 ID：Folyd），他在 2018 年开始接触 Rust 后，便一直活跃在 Rust 社区内，除了使用广泛的这个插件，他还参与了&lt;a href="https://rustcc.cn/section?id=f4703117-7e6b-4caf-aa22-a3ad3db6898f">《Rust 日报》&lt;/a>的编辑工作，而且还给 Rust 官方标准库贡献过代码，是一位追求极简主义的极客。本期节目聊到了他与 Rust 的种种有趣故事，近一个小时的内容，精彩不容错过。&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-2" class="outline-2">
+&lt;h2 id="headline-2">
+时间线
+&lt;/h2>
+&lt;div id="outline-text-headline-2" class="outline-text-2">
+&lt;ul>
+&lt;li>
+&lt;p>00:00:22 自我介绍&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:00:59 学习 Rust 过程&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:06:37 Rust 语言的特点&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:10:13 Rust 社区文化&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:15:32 Rust 语言的大“坑”&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:19:39 Rust 发展展望&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:21:14 Rust Search Extension 开发经历&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:38:45 Rust 标准库贡献经历&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:45:03 公链波卡 Polkadot 2021-05-25 故障分析&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:53:05 推荐环节&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-3" class="outline-2">
+&lt;h2 id="headline-3">
+Show Notes
+&lt;/h2>
+&lt;div id="outline-text-headline-3" class="outline-text-2">
+&lt;ul>
+&lt;li>
+&lt;p>嘉宾自我介绍&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>网络 ID：&lt;a href="https://folyd.com/">Folyd&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Twitter：&lt;a href="https://twitter.com/_hisriver">_hisriver&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>知乎：&lt;a href="https://www.zhihu.com/people/Folyd">朱霜&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>目前在字节跳动工作&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://teahour.fm/90">Teahour: #90 - 和 PingCAP CTO 畅谈数据库和编程语言&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2018-08 出版 &lt;a href="https://book.douban.com/subject/30312231/">深入浅出 Rust&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://rust-unofficial.github.io/too-many-lists/">Introduction - Learning Rust With Entirely Too Many Linked Lists&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Rust 文档的理念&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>注释即文档&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>文档即测试&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>离线体验好&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Rust 作者：&lt;a href="https://everipedia.org/wiki/lang_en/graydon-hoare">Graydon Hoare Wiki &amp;amp; Bio&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2018-03 发布 &lt;a href="https://rust.extension.sh/">Rust Search Extension&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://zhuanlan.zhihu.com/p/456608171">我的 Rust 搜索半年总结 - 知乎&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>嘉宾推荐&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>杨立昆的自传 &lt;a href="https://book.douban.com/subject/35560368/">《科学之路》&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://rescript-lang.org/">The ReScript Programming Language&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>主播推荐&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://rust.extension.sh/">Rust Search Extension&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://emacstalk.github.io/">EmacsTalk&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://book.emacs-china.org/">Master Emacs in 21 Days&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="https://img.alicdn.com/imgextra/i2/581166664/O1CN01rM99JQ1z6A7TNFPjG_!!581166664.jpg" alt="https://img.alicdn.com/imgextra/i2/581166664/O1CN01rM99JQ1z6A7TNFPjG_!!581166664.jpg" title="https://img.alicdn.com/imgextra/i2/581166664/O1CN01rM99JQ1z6A7TNFPjG_!!581166664.jpg" />&lt;figcaption>
+常见编辑器的学习曲线
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-4" class="outline-2">
+&lt;h2 id="headline-4">
+Rust Search 插件 Tips
+&lt;/h2>
+&lt;div id="outline-text-headline-4" class="outline-text-2">
+&lt;figure>
+&lt;img src="https://img.alicdn.com/imgextra/i2/581166664/O1CN01VgXSEX1z6A7X96J1f_!!581166664.png" alt="https://img.alicdn.com/imgextra/i2/581166664/O1CN01VgXSEX1z6A7X96J1f_!!581166664.png" title="https://img.alicdn.com/imgextra/i2/581166664/O1CN01VgXSEX1z6A7X96J1f_!!581166664.png" />&lt;figcaption>
+Rust Search 插件配置项
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>
+默认需要用 &lt;code class="verbatim">~&lt;/code> 前缀来搜索第三方 crates，这里可以配置默认搜索的范围。&lt;/p>
+&lt;/div>
+&lt;/div></description><enclosure url="https://aod.cos.tx.xmcdn.com/storages/48cc-audiofreehighqps/BF/8E/GKwRIaIFxbVTAcPDNwERJD3o.m4a" type="audio/mpeg" length="29578878"/><itunes:duration>01:00:57</itunes:duration><itunes:image href="https://rusttalk.github.io/guests/folyd.jpg"/><itunes:explicit>false</itunes:explicit></item><item><title>000. RustTalk 节目简介</title><itunes:title>000. RustTalk 节目简介</itunes:title><link>https://rusttalk.github.io/podcast/000/</link><guid>https://rusttalk.github.io/podcast/000/</guid><pubDate>Sat, 01 Jan 2022 09:11:16 +0800</pubDate><author>rusttalk@liujiacai.net (写代码的西瓜)</author><description>
 &lt;div id="outline-container-headline-1" class="outline-2">
 &lt;h2 id="headline-1">
 为什么办 RustTalk
