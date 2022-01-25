@@ -1,11 +1,13 @@
-#+TITLE: 001. 与 Folyd 聊 Rust
+#+TITLE: 001. 与 Folyd 聊他的 Rust 使用经历
 #+DATE: 2022-01-23T21:51:49+0800
-#+DRAFT: true
-#+LASTMOD: 2022-01-24T23:39:28+0800
-#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/da9a-audiofreehighqps/50/00/GKwRIJIFpiOtADIlSgEJIDCc.m4a
-#+PODCAST_DURATION: 6:45
-#+PODCAST_LENGTH: 3286346
+#+LASTMOD: 2022-01-25T21:23:06+0800
+#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/48cc-audiofreehighqps/BF/8E/GKwRIaIFxbVTAcPDNwERJD3o.m4a
+#+PODCAST_DURATION: 01:00:57
+#+PODCAST_LENGTH: 29578878
+#+PODCAST_IMAGE_SRC: guests/folyd.jpg
 
+* 概要
+本期嘉宾是 Rust Search Extension 作者朱霜（网络 ID：Folyd），他在 2018 年开始接触 Rust 后，便一直活跃在 Rust 社区内，除了使用广泛的这个插件，他还参与了[[https://rustcc.cn/section?id=f4703117-7e6b-4caf-aa22-a3ad3db6898f][《Rust 日报》]]的编辑工作，而且还给 Rust 官方标准库贡献过代码，是一位追求极简主义的极客。本期节目聊到了他与 Rust 的种种有趣故事，近一个小时的内容，精彩不容错过。
 
 * 时间线
 - 00:00:22 自我介绍
@@ -16,19 +18,39 @@
 - 00:19:39 Rust 发展展望
 - 00:21:14 Rust Search Extension 开发经历
 - 00:38:45 Rust 标准库贡献经历
+- 00:45:03 公链波卡 Polkadot 2021-05-25 故障分析
+- 00:53:05 推荐环节
 
 
 * Show Notes
 - 嘉宾自我介绍
-  - 网络 ID：[[https://folyd.com/][Folyd]]，[[https://twitter.com/_hisriver][Twitter 帐号]]
-  - 18 年了解 Rust，目前在字节跳动工作
+  - 网络 ID：[[https://folyd.com/][Folyd]]
+  - Twitter：[[https://twitter.com/_hisriver][_hisriver]]
+  - 知乎：[[https://www.zhihu.com/people/Folyd][朱霜]]
+  - 目前在字节跳动工作
 - [[https://teahour.fm/90][Teahour: #90 - 和 PingCAP CTO 畅谈数据库和编程语言]]
 - 2018-08 出版 [[https://book.douban.com/subject/30312231/][深入浅出 Rust]]
 - [[https://rust-unofficial.github.io/too-many-lists/][Introduction - Learning Rust With Entirely Too Many Linked Lists]]
 - Rust 文档的理念
   - 注释即文档
   - 文档即测试
-  - 离线功能做的很好
+  - 离线体验好
 - Rust 作者：[[https://everipedia.org/wiki/lang_en/graydon-hoare][Graydon Hoare Wiki & Bio]]
 - 2018-03 发布 [[https://rust.extension.sh/][Rust Search Extension]]
 - [[https://zhuanlan.zhihu.com/p/456608171][我的 Rust 搜索半年总结 - 知乎]]
+- 嘉宾推荐
+  - 杨立昆的自传 [[https://book.douban.com/subject/35560368/][《科学之路》]]
+  - [[https://rescript-lang.org/][The ReScript Programming Language]]
+- 主播推荐
+  - [[https://rust.extension.sh/][Rust Search Extension]]
+  - [[https://emacstalk.github.io/][EmacsTalk]]
+  - [[https://book.emacs-china.org/][Master Emacs in 21 Days]]
+
+#+CAPTION: 常见编辑器的学习曲线
+https://img.alicdn.com/imgextra/i2/581166664/O1CN01rM99JQ1z6A7TNFPjG_!!581166664.jpg
+
+* Rust Search 插件 Tips
+#+CAPTION: Rust Search 插件配置项
+https://img.alicdn.com/imgextra/i2/581166664/O1CN01VgXSEX1z6A7X96J1f_!!581166664.png
+
+默认需要用 =~= 前缀来搜索第三方 crates，这里可以配置默认搜索的范围。
