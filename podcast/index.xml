@@ -131,7 +131,7 @@ Show Notes
 &lt;p>波卡公链故障：&lt;a href="https://polkadot.network/blog/a-polkadot-postmortem-24-05-2021/">A Polkadot Postmortem&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>嘉宾针对该故障，在 Twitter 上的&lt;a href="：https://twitter.com/_hisriver/status/1398264047229829129">总结&lt;/a>&lt;/p>
+&lt;p>嘉宾针对该故障，在 Twitter 上的&lt;a href="https://twitter.com/_hisriver/status/1398264047229829129">总结&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>嘉宾事后给波卡提的 PR：&lt;a href="https://github.com/paritytech/substrate/pull/8943">substrate#8943&lt;/a>&lt;/p>
@@ -195,7 +195,7 @@ Rust Search 插件配置项
 &lt;div id="outline-text-headline-1" class="outline-text-2">
 &lt;ul>
 &lt;li>
-&lt;p>&lt;a href="https://rustcc.cn/">Rust 语言中文社区&lt;/a> 是一个相比干货分享的地方，偏文字，RustTalk 更侧重“湿货”，不仅仅会介绍到 Rust 的设计理念，更多的回去挖掘 Rust 背后的 &lt;strong>奇人轶事&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://rustcc.cn/">Rust 语言中文社区&lt;/a>是一个偏干货分享的地方，偏文字，RustTalk 更侧重“湿货”，不仅仅会介绍到 Rust 的设计理念，更多的会去挖掘 Rust 背后的 &lt;strong>奇人轶事&lt;/strong>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>学习一门技术最好的方式是实践，播客也算一种&lt;/p>
