@@ -1,12 +1,12 @@
 #+TITLE: 000. RustTalk 节目简介
 #+DATE: 2022-01-01T09:11:16+08:00
-#+LASTMOD: 2022-01-01T16:01:58+0800
+#+LASTMOD: 2022-01-19T16:19:26+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/da9a-audiofreehighqps/50/00/GKwRIJIFpiOtADIlSgEJIDCc.m4a
 #+PODCAST_DURATION: 6:45
 #+PODCAST_LENGTH: 3286346
 
 * 为什么办 RustTalk
-- [[https://rustcc.cn/][Rust 语言中文社区]] 是一个相比干货分享的地方，偏文字，RustTalk 更侧重“湿货”，不仅仅会介绍到 Rust 的设计理念，更多的回去挖掘 Rust 背后的 *奇人轶事*
+- [[https://rustcc.cn/][Rust 语言中文社区]]是一个偏干货分享的地方，偏文字，RustTalk 更侧重“湿货”，不仅仅会介绍到 Rust 的设计理念，更多的会去挖掘 Rust 背后的 *奇人轶事*
 - 学习一门技术最好的方式是实践，播客也算一种
 - 王垠 2016 的文章：[[http://www.yinwang.org/blog-cn/2016/09/18/rust][对 Rust 语言的分析]]，[[https://drive.google.com/file/d/1aFHzgyDAsdEOWPJdsm5GbWjWlqiMbx5M/view?usp=sharing][PDF 备份]]
 - https://talkgo.fm/

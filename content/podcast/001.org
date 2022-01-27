@@ -1,6 +1,6 @@
 #+TITLE: 001. 与 Folyd 聊他的 Rust 使用经历
 #+DATE: 2022-01-23T21:51:49+0800
-#+LASTMOD: 2022-01-25T22:13:36+0800
+#+LASTMOD: 2022-01-26T12:19:57+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/48cc-audiofreehighqps/BF/8E/GKwRIaIFxbVTAcPDNwERJD3o.m4a
 #+PODCAST_DURATION: 01:00:57
 #+PODCAST_LENGTH: 29578878
@@ -44,7 +44,7 @@
 - Rust 标准库二分查找的 PR：[[https://github.com/rust-lang/rust/pull/74024][#74024]]
   - 博客总结：[[https://folyd.com/blog/rust-binary-search-pr/][优化 Rust 标准库的 binary_search]]
 - 波卡公链故障：[[https://polkadot.network/blog/a-polkadot-postmortem-24-05-2021/][A Polkadot Postmortem]]
-  - 嘉宾针对该故障，在 Twitter 上的[[：https://twitter.com/_hisriver/status/1398264047229829129][总结]]
+  - 嘉宾针对该故障，在 Twitter 上的[[https://twitter.com/_hisriver/status/1398264047229829129][总结]]
   - 嘉宾事后给波卡提的 PR：[[https://github.com/paritytech/substrate/pull/8943][substrate#8943]]
 - 嘉宾推荐
   - 杨立昆的自传 [[https://book.douban.com/subject/35560368/][《科学之路》]]
