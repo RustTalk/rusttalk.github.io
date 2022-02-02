@@ -1,0 +1,49 @@
+#+TITLE: 002. 与黄光星畅聊 Rust、Redis 与新加坡
+#+DATE: 2022-02-02T19:37:37+0800
+#+LASTMOD: 2022-02-02T22:10:29+0800
+#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/0749-audiofreehighqps/C2/35/GKwRIJIF0FFMAhGW8QETbxa6.m4a
+#+PODCAST_DURATION: 01:11:27
+#+PODCAST_LENGTH: 34679352
+#+PODCAST_IMAGE_SRC: guests/doyoubi.jpg
+
+* 概要
+本期嘉宾是 [[https://github.com/doyoubi/undermoon][undermoon]] 作者黄光星（网络 ID：doyoubi）。在经历 C++ 多年折腾后，嘉宾在 2015 年做毕业设计时毅然决然地投入 Rust 的怀抱。在工作中，嘉宾主要与 Redis 集群方案打交道，在经历了 C/Go 版本后，最终选择了 Rust，这其中的经验教训是什么？此外，嘉宾在 2018 年选择出国去新加坡，是什么吸引了他？Rust 在新加坡的发展情况是怎么样？这些问题的答案都在这一个小时的节目里，请慢慢“品尝”。
+
+* 时间线
+- 00:00:22 嘉宾自我介绍
+- 00:02:41 学习 Rust 过程
+- 00:11:46 Rust 与 C++ 的对比
+- 00:15:48 Rust 学习过程中的难点
+- 00:21:36 对 Rust 新手的建议
+- 00:26:26 开发 Redis Cluster 经验分享
+- 00:44:44 用 Rust 做项目的优势
+- 00:50:01 Rust 在新加坡的发展
+- 00:54:02 嘉宾选择新加坡的原因
+- 00:56:03 嘉宾对新加坡的整体评价
+- 01:02:14 推荐、分享
+
+* Show Notes
+- 嘉宾自我介绍
+  - 知乎：[[https://www.zhihu.com/people/huang-guang-xing-18][黄光星]]
+  - GitHub：[[https://github.com/doyoubi][doyoubi]]
+- 嘉宾的毕业设计： [[https://github.com/doyoubi/Blastoise][Blastoise: tiny relational database]]
+- [[https://huonw.github.io/blog/2015/01/peeking-inside-trait-objects/][Peeking inside Trait Objects | Huon on the internet]]
+- Effective C++ 作者表示维护不动了的文章：[[https://scottmeyers.blogspot.com/2018/09/the-errata-evaluation-problem.html][The Errata Evaluation Problem]]
+- [[https://github.com/skyzh/type-exercise-in-rust][skyzh/type-exercise-in-rust: Learn Rust black magics by implementing basic types in database systems]]
+- 嘉宾参与过的三个 Redis Cluster 项目
+  1. C :: [[https://github.com/eleme/corvus][eleme/corvus: A fast and lightweight Redis Cluster Proxy for Redis 3.0]]
+  2. Go :: [[https://github.com/samaritan-proxy/samaritan][samaritan-proxy/samaritan: A transparent proxy focus on infrastructure]]
+  3. Rust :: [[https://github.com/doyoubi/undermoon][doyoubi/undermoon: Mordern Redis Cluster solution for easy operation.]]
+- Redis-like database
+  - [[https://github.com/OpenAtomFoundation/pika][OpenAtomFoundation/pika: Pika is a nosql compatible with redis]]
+  - [[https://github.com/EQ-Alpha/KeyDB][EQ-Alpha/KeyDB: A Multithreaded Fork of Redis]]
+- 嘉宾推荐
+  - [[https://book.douban.com/subject/25913349/][A Mind For Numbers (豆瓣)]]
+  - 翻译笔
+  - Rachel's English
+    - [[https://space.bilibili.com/631186842][哔哩哔哩]]
+    - [[https://www.youtube.com/c/rachelsenglish][YouTube]]
+- 主播推荐
+  - [[https://github.com/rust-lang/rustlings][rust-lang/rustlings: Small exercises to get you used to reading and writing Rust code!]]
+  - [[https://github.com/pingcap/talent-plan][pingcap/talent-plan: open source training courses about distributed database and distributed systemes]]
+- [[https://music.163.com/#/song?id=1380302523][片尾音乐]]
