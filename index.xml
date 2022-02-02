@@ -1,4 +1,156 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RustTalk</title><link>https://rusttalk.github.io/</link><description>Recent content on RustTalk</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>rusttalk@liujiacai.net (写代码的西瓜)</managingEditor><webMaster>rusttalk@liujiacai.net (写代码的西瓜)</webMaster><copyright>2022 rusttalk.github.io</copyright><lastBuildDate>Sun, 23 Jan 2022 21:51:49 +0800</lastBuildDate><atom:link href="https://rusttalk.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>001. 与 Folyd 聊他的 Rust 使用经历</title><link>https://rusttalk.github.io/podcast/001/</link><pubDate>Sun, 23 Jan 2022 21:51:49 +0800</pubDate><author>rusttalk@liujiacai.net (写代码的西瓜)</author><guid>https://rusttalk.github.io/podcast/001/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RustTalk</title><link>https://rusttalk.github.io/</link><description>Recent content on RustTalk</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>rusttalk@liujiacai.net (写代码的西瓜)</managingEditor><webMaster>rusttalk@liujiacai.net (写代码的西瓜)</webMaster><copyright>2022 rusttalk.github.io</copyright><lastBuildDate>Wed, 02 Feb 2022 19:37:37 +0800</lastBuildDate><atom:link href="https://rusttalk.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>002. 与黄光星畅聊 Rust、Redis 与新加坡</title><link>https://rusttalk.github.io/podcast/002/</link><pubDate>Wed, 02 Feb 2022 19:37:37 +0800</pubDate><author>rusttalk@liujiacai.net (写代码的西瓜)</author><guid>https://rusttalk.github.io/podcast/002/</guid><description>
+&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+概要
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>本期嘉宾是 &lt;a href="https://github.com/doyoubi/undermoon">undermoon&lt;/a> 作者黄光星（网络 ID：doyoubi）。在经历 C++ 多年折腾后，嘉宾在 2015 年做毕业设计时毅然决然地投入 Rust 的怀抱。在工作中，嘉宾主要与 Redis 集群方案打交道，在经历了 C/Go 版本后，最终选择了 Rust，这其中的经验教训是什么？此外，嘉宾在 2018 年选择出国去新加坡，是什么吸引了他？Rust 在新加坡的发展情况是怎么样？这些问题的答案都在这一个小时的节目里，请慢慢“品尝”。&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-2" class="outline-2">
+&lt;h2 id="headline-2">
+时间线
+&lt;/h2>
+&lt;div id="outline-text-headline-2" class="outline-text-2">
+&lt;ul>
+&lt;li>
+&lt;p>00:00:22 嘉宾自我介绍&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:02:41 学习 Rust 过程&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:11:46 Rust 与 C++ 的对比&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:15:48 Rust 学习过程中的难点&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:21:36 对 Rust 新手的建议&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:26:26 开发 Redis Cluster 经验分享&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:44:44 用 Rust 做项目的优势&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:50:01 Rust 在新加坡的发展&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:54:02 嘉宾选择新加坡的原因&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:56:03 嘉宾对新加坡的整体评价&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>01:02:14 推荐、分享&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-3" class="outline-2">
+&lt;h2 id="headline-3">
+Show Notes
+&lt;/h2>
+&lt;div id="outline-text-headline-3" class="outline-text-2">
+&lt;ul>
+&lt;li>
+&lt;p>嘉宾自我介绍&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>知乎：&lt;a href="https://www.zhihu.com/people/huang-guang-xing-18">黄光星&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>GitHub：&lt;a href="https://github.com/doyoubi">doyoubi&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>嘉宾的毕业设计： &lt;a href="https://github.com/doyoubi/Blastoise">Blastoise: tiny relational database&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://huonw.github.io/blog/2015/01/peeking-inside-trait-objects/">Peeking inside Trait Objects | Huon on the internet&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Effective C++ 作者表示维护不动了的文章：&lt;a href="https://scottmeyers.blogspot.com/2018/09/the-errata-evaluation-problem.html">The Errata Evaluation Problem&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/skyzh/type-exercise-in-rust">skyzh/type-exercise-in-rust: Learn Rust black magics by implementing basic types in database systems&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>嘉宾参与过的三个 Redis Cluster 项目&lt;/p>
+&lt;dl>
+&lt;dt>
+C
+&lt;/dt>
+&lt;dd>
+&lt;p>&lt;a href="https://github.com/eleme/corvus">eleme/corvus: A fast and lightweight Redis Cluster Proxy for Redis 3.0&lt;/a>&lt;/p>
+&lt;/dd>
+&lt;dt>
+Go
+&lt;/dt>
+&lt;dd>
+&lt;p>&lt;a href="https://github.com/samaritan-proxy/samaritan">samaritan-proxy/samaritan: A transparent proxy focus on infrastructure&lt;/a>&lt;/p>
+&lt;/dd>
+&lt;dt>
+Rust
+&lt;/dt>
+&lt;dd>
+&lt;p>&lt;a href="https://github.com/doyoubi/undermoon">doyoubi/undermoon: Mordern Redis Cluster solution for easy operation.&lt;/a>&lt;/p>
+&lt;/dd>
+&lt;/dl>
+&lt;/li>
+&lt;li>
+&lt;p>Redis-like database&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/OpenAtomFoundation/pika">OpenAtomFoundation/pika: Pika is a nosql compatible with redis&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/EQ-Alpha/KeyDB">EQ-Alpha/KeyDB: A Multithreaded Fork of Redis&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>嘉宾推荐&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://book.douban.com/subject/25913349/">A Mind For Numbers (豆瓣)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>翻译笔&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Rachel&amp;#39;s English&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://space.bilibili.com/631186842">哔哩哔哩&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.youtube.com/c/rachelsenglish">YouTube&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>主播推荐&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/rust-lang/rustlings">rust-lang/rustlings: Small exercises to get you used to reading and writing Rust code!&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/pingcap/talent-plan">pingcap/talent-plan: open source training courses about distributed database and distributed systemes&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://music.163.com/#/song?id=1380302523">片尾音乐&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div></description></item><item><title>001. 与 Folyd 聊他的 Rust 使用经历</title><link>https://rusttalk.github.io/podcast/001/</link><pubDate>Sun, 23 Jan 2022 21:51:49 +0800</pubDate><author>rusttalk@liujiacai.net (写代码的西瓜)</author><guid>https://rusttalk.github.io/podcast/001/</guid><description>
 &lt;div id="outline-container-headline-1" class="outline-2">
 &lt;h2 id="headline-1">
 概要
