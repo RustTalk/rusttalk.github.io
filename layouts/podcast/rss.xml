@@ -49,7 +49,12 @@
       {{ with .Site.Author.email -}}
       <author>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</author>
       {{ end -}}
-      <description>{{ .Content | html }}</description>
+      <description>
+        {{ with .Site.Params.fadian }}
+        {{ .  | markdownify | html }}
+        {{ end }}
+        {{ .Content | html }}
+      </description>
       <enclosure url="{{.Params.podcast_mp3}}" type="audio/mpeg" length='{{ .Params.podcast_length }}'/>
       {{ with .Params.podcast_duration}}<itunes:duration>{{ . }}</itunes:duration>{{end}}
       {{ with .Params.podcast_image_src }}{{ $image := resources.Get . }}<itunes:image href="{{ $image.Permalink }}" />{{ end }}
