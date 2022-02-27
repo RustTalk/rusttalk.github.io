@@ -33,10 +33,10 @@ enableGitInfo = true
   identifier = "about"
   url = "/about/"
 [[menu.main]]
-  name = "🔥 爱发电 🔥"
+  name = "打赏"
   weight = 50
   identifier = "afdian"
-  url = "/donate"
+  url = "https://liujiacai.net/donate/"
 
 [params]
     logo = true
@@ -44,7 +44,7 @@ enableGitInfo = true
     fadian = """
 #### 如果 RustTalk 对您有所帮助
 - 欢迎在各大播客平台留言、打分、转发
-- 也欢迎您为本节目进行[捐助支持](/donate) ❤️
+- 也欢迎您为本节目进行[打赏支持](https://liujiacai.net/donate/) ❤️
 """
     dateformat = "2006-01-02"
     description = "RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。官网：rusttalk.github.io"
