@@ -1,0 +1,38 @@
+#+TITLE: 003. 与 rustcc 早期成员 wayslog 闲聊 Rust
+#+DATE: 2022-03-01T19:30:52+0800
+#+LASTMOD: 2022-03-01T22:07:22+0800
+#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/586b-audiofreehighqps/0F/30/GKwRIMAF8-QWAYW4nwEhe7Mg.m4a
+#+PODCAST_DURATION: 00:52:35
+#+PODCAST_LENGTH: 25197532
+#+PODCAST_IMAGE_SRC: guests/wayslog.jpg
+
+* 概要
+本期嘉宾是赵雪松（网络 ID：wayslog）。出于好奇心，嘉宾在 2015 年大学毕业季接触到 Rust 后，便一直活跃在社区内，自诩“Rust 最菜讲师”，Rust 的干饭人。本期节目除了会聊到嘉宾的 Rust 使用经验，还会介绍 [[https://github.com/rustcc][rustcc 社区]]的运作方式，以及其中的一些趣事，最后，作为福利，嘉宾还提供了某跳动公司的内推机会，精彩不容错过。
+
+* 时间线
+- 00:00:43 嘉宾 Rust 入坑经历
+- 00:07:57 王垠 Rust 文章的分析
+- 00:12:40 Rust 流行的原因
+- 00:17:33 Rust 与 C++ 对比
+- 00:20:47 嘉宾 Rust 项目介绍
+- 00:32:17 嘉宾 Rust 社区运营相关经历
+- 00:39:38 rustcc 运营模式
+- 00:43:29 rustcc 社区内的奇人逸事
+- 00:47:50 好物推荐
+
+* Show Notes
+- 嘉宾介绍
+  - GitHub：[[https://github.com/wayslog][wayslog]]
+  - 工作经历：七牛、饿了么、B站、ByteDance
+- [[http://www.yinwang.org/blog-cn/2016/09/18/rust][对 Rust 语言的分析]] by 王垠
+- 嘉宾对王垠文章的分析：[[https://github.com/RustTalk/guests/blob/main/podcasts/2022-02-07-wayslog.org#%E5%85%B3%E4%BA%8Ewangyin%E7%9A%84rust%E8%AE%A8%E8%AE%BA][关于 Yin Wang 的 Rust 讨论]]
+- [[https://github.com/servo/servo][servo/servo: The Servo Browser Engine]]
+- 嘉宾的项目：[[https://github.com/wayslog/aster][Aster is a lightweight, fast but powerful cache proxy written in rust.]]
+- [[https://github.com/rustcc/RustPrimer][rustcc/RustPrimer: The Rust primer for beginners. We need native English speaker help us modify the translation.]]
+- [[https://www.zhihu.com/column/rust-quickstart][学一点 Rust 又不会怀孕 - 知乎]]
+- rustcc 深水群：https://t.me/rust_deep_water
+- 嘉宾推荐
+  - 毛笔：《多宝塔》by 颜真卿
+  - 硬笔：《九成宫醴泉铭》by 欧阳询
+  - 飞书上海内推邮箱：zxs867179@gmail.com，备注来源 RustTalk
+    - JD：https://job.toutiao.com/s/LbDKJPc
