@@ -1,6 +1,6 @@
 #+TITLE: 003. 与 rustcc 早期成员 wayslog 闲聊 Rust
 #+DATE: 2022-03-01T19:30:52+0800
-#+LASTMOD: 2022-03-01T22:07:22+0800
+#+LASTMOD: 2022-03-01T22:23:18+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/586b-audiofreehighqps/0F/30/GKwRIMAF8-QWAYW4nwEhe7Mg.m4a
 #+PODCAST_DURATION: 00:52:35
 #+PODCAST_LENGTH: 25197532
@@ -24,6 +24,7 @@
 - 嘉宾介绍
   - GitHub：[[https://github.com/wayslog][wayslog]]
   - 工作经历：七牛、饿了么、B站、ByteDance
+- 联合主播：[[https://www.zhihu.com/people/huang-guang-xing-18][黄光星]]
 - [[http://www.yinwang.org/blog-cn/2016/09/18/rust][对 Rust 语言的分析]] by 王垠
 - 嘉宾对王垠文章的分析：[[https://github.com/RustTalk/guests/blob/main/podcasts/2022-02-07-wayslog.org#%E5%85%B3%E4%BA%8Ewangyin%E7%9A%84rust%E8%AE%A8%E8%AE%BA][关于 Yin Wang 的 Rust 讨论]]
 - [[https://github.com/servo/servo][servo/servo: The Servo Browser Engine]]
