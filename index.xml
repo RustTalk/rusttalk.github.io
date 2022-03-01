@@ -1,4 +1,108 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RustTalk</title><link>https://rusttalk.github.io/</link><description>Recent content on RustTalk</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>rusttalk@liujiacai.net (写代码的西瓜)</managingEditor><webMaster>rusttalk@liujiacai.net (写代码的西瓜)</webMaster><copyright>2022 rusttalk.github.io</copyright><lastBuildDate>Wed, 02 Feb 2022 19:37:37 +0800</lastBuildDate><atom:link href="https://rusttalk.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>002. 与黄光星畅聊 Rust、Redis 与新加坡</title><link>https://rusttalk.github.io/podcast/002/</link><pubDate>Wed, 02 Feb 2022 19:37:37 +0800</pubDate><author>rusttalk@liujiacai.net (写代码的西瓜)</author><guid>https://rusttalk.github.io/podcast/002/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RustTalk</title><link>https://rusttalk.github.io/</link><description>Recent content on RustTalk</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>rusttalk@liujiacai.net (写代码的西瓜)</managingEditor><webMaster>rusttalk@liujiacai.net (写代码的西瓜)</webMaster><copyright>2022 rusttalk.github.io</copyright><lastBuildDate>Tue, 01 Mar 2022 19:30:52 +0800</lastBuildDate><atom:link href="https://rusttalk.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>003. 与 rustcc 早期成员 wayslog 闲聊 Rust</title><link>https://rusttalk.github.io/podcast/003/</link><pubDate>Tue, 01 Mar 2022 19:30:52 +0800</pubDate><author>rusttalk@liujiacai.net (写代码的西瓜)</author><guid>https://rusttalk.github.io/podcast/003/</guid><description>
+&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+概要
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>本期嘉宾是赵雪松（网络 ID：wayslog）。出于好奇心，嘉宾在 2015 年大学毕业季接触到 Rust 后，便一直活跃在社区内，自诩“Rust 最菜讲师”，Rust 的干饭人。本期节目除了会聊到嘉宾的 Rust 使用经验，还会介绍 &lt;a href="https://github.com/rustcc">rustcc 社区&lt;/a>的运作方式，以及其中的一些趣事，最后，作为福利，嘉宾还提供了某跳动公司的内推机会，精彩不容错过。&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-2" class="outline-2">
+&lt;h2 id="headline-2">
+时间线
+&lt;/h2>
+&lt;div id="outline-text-headline-2" class="outline-text-2">
+&lt;ul>
+&lt;li>
+&lt;p>00:00:43 嘉宾 Rust 入坑经历&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:07:57 王垠 Rust 文章的分析&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:12:40 Rust 流行的原因&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:17:33 Rust 与 C++ 对比&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:20:47 嘉宾 Rust 项目介绍&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:32:17 嘉宾 Rust 社区运营相关经历&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:39:38 rustcc 运营模式&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:43:29 rustcc 社区内的奇人逸事&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>00:47:50 好物推荐&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-3" class="outline-2">
+&lt;h2 id="headline-3">
+Show Notes
+&lt;/h2>
+&lt;div id="outline-text-headline-3" class="outline-text-2">
+&lt;ul>
+&lt;li>
+&lt;p>嘉宾介绍&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>GitHub：&lt;a href="https://github.com/wayslog">wayslog&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>工作经历：七牛、饿了么、B站、ByteDance&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.yinwang.org/blog-cn/2016/09/18/rust">对 Rust 语言的分析&lt;/a> by 王垠&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>嘉宾对王垠文章的分析：&lt;a href="https://github.com/RustTalk/guests/blob/main/podcasts/2022-02-07-wayslog.org#%E5%85%B3%E4%BA%8Ewangyin%E7%9A%84rust%E8%AE%A8%E8%AE%BA">关于 Yin Wang 的 Rust 讨论&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/servo/servo">servo/servo: The Servo Browser Engine&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>嘉宾的项目：&lt;a href="https://github.com/wayslog/aster">Aster is a lightweight, fast but powerful cache proxy written in rust.&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/rustcc/RustPrimer">rustcc/RustPrimer: The Rust primer for beginners. We need native English speaker help us modify the translation.&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.zhihu.com/column/rust-quickstart">学一点 Rust 又不会怀孕 - 知乎&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>rustcc 深水群：&lt;a href="https://t.me/rust_deep_water">https://t.me/rust_deep_water&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>嘉宾推荐&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>毛笔：《多宝塔》by 颜真卿&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>硬笔：《九成宫醴泉铭》by 欧阳询&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>飞书上海内推邮箱：zxs867179@gmail.com，备注来源 RustTalk&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>JD：&lt;a href="https://job.toutiao.com/s/LbDKJPc">https://job.toutiao.com/s/LbDKJPc&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div></description></item><item><title>002. 与黄光星畅聊 Rust、Redis 与新加坡</title><link>https://rusttalk.github.io/podcast/002/</link><pubDate>Wed, 02 Feb 2022 19:37:37 +0800</pubDate><author>rusttalk@liujiacai.net (写代码的西瓜)</author><guid>https://rusttalk.github.io/podcast/002/</guid><description>
 &lt;div id="outline-container-headline-1" class="outline-2">
 &lt;h2 id="headline-1">
 概要
