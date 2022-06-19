@@ -1,0 +1,55 @@
+#+TITLE: 004. 与迟先生聊 Rust 与数据库系统
+#+DATE: 2022-06-18T22:12:48+0800
+#+LASTMOD: 2022-06-19T14:26:58+0800
+#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/dbbc-audiofreehighqps/81/7F/GKwRIMAGhIGAAbyamwFtzLdH.m4a
+#+PODCAST_DURATION: 00:59:59
+#+PODCAST_LENGTH: 29101492
+#+PODCAST_IMAGE_SRC: guests/chi.jpg
+
+* 概要
+本期嘉宾是迟策（aka 迟先生），虽然今年才刚大学毕业，但早已小有名气。在校内，他是交大 18 级计算机专业成绩第一名，曾因其对交大教学的评论，上过知乎热榜；在 Rust 社区内，是多个明星开源项目（如 TiKV、risinglight）的维护者与开发者。
+
+作为 Rust 忠实粉丝，迟先生对 Rust 语言有很深的造诣，创造了多个开源项目，是 Rust 社区内不可多得的教学素材；在数据库方向，迟先生参加过 PingCAP、字节跳动、 Singularity Data 等公司的实习，涉及存储、计算、SQL 等多个模块，更是开源了一个用于教学目的的 OLAP 数据库。不得不说，迟先生太成功了。
+
+今年夏天，迟先生将去 CMU 深造，这里预祝他学业顺利，继续成功下去！
+* 时间线
+- 00:00:32 嘉宾自我介绍
+- 00:04:39 Rust 2018 版次相比 2015 的改进
+- 00:07:38 Rust 与 C++ 的对比
+- 00:09:50 把生命周期引入类型系统是否是明智的选择？
+- 00:17:06 用 Rust 做类型体操
+- 00:24:32 Rust 未来发展的展望
+- 00:32:39 嘉宾的项目介绍
+- 00:35:19 嘉宾选择数据库方向的原因
+- 00:49:12 risingwave 项目介绍
+- 00:57:23 推荐环节
+
+* Show Notes
+- 个人介绍
+  - 网名：Alex Chi、迟策、迟先生
+  - 网络 ID：skyzh
+  - 博客：https://skyzh.dev/
+  - Twitter：https://twitter.com/iskyzh
+  - GitHub： https://github.com/skyzh
+- 上知乎热榜后的总结文章：[[https://zhuanlan.zhihu.com/p/345269981][与恶龙斗，其乐无穷]]
+- 光线追踪渲染器：[[https://github.com/skyzh/raytracer.rs][raytracer.rs]]
+- [[https://blog.rust-lang.org/2018/12/06/Rust-1.31-and-rust-2018.html#non-lexical-lifetimes][Non-lexical lifetimes]]，对应的 rfc：[[https://rust-lang.github.io/rfcs/2094-nll.html][2094-nll]]
+- 另一个 Rust 借用检查器（borrow checker）：[[https://github.com/rust-lang/polonius][rust-lang/polonius]]
+- GAT：[[https://rust-lang.github.io/rfcs/1598-generic_associated_types.html][1598-generic_associated_types]]
+- 用 Rust 做类型体操
+  - GitHub：[[https://github.com/skyzh/type-exercise-in-rust][skyzh/type-exercise-in-rust]]
+  - 博客介绍：[[https://www.skyzh.dev/posts/articles/2022-01-22-rust-type-exercise-in-database-executors/][上篇]]、[[https://www.skyzh.dev/posts/articles/2022-01-24-rust-type-exercise-in-database-executors-middle/][中篇]]、[[https://www.skyzh.dev/posts/articles/2022-02-01-rust-type-exercise-in-database-executors-final/][下篇]]
+- [[https://paperhub.s3.amazonaws.com/dace52a42c07f7f8348b08dc2b186061.pdf][Volcano-An Extensible and Parallel Query Evaluation System]]（PDF）
+- [[https://github.com/singularity-data/risingwave][singularity-data/risingwave: RisingWave: the next-generation streaming database in the cloud.]]
+- [[http://www.yinwang.org/blog-cn/2016/09/18/rust][对 Rust 语言的分析 by 王垠]]
+- [[https://github.com/tikv/agatedb][tikv/agatedb: A persistent key-value storage in rust.]]
+- [[https://github.com/risinglightdb/risinglight][risinglightdb/risinglight: An OLAP database system for educational purpose]]
+- [[https://github.com/singularity-data/risingwave][singularity-data/risingwave: RisingWave: the next-generation streaming database in the cloud.]]
+- FPGA：[[https://en.wikipedia.org/wiki/Field-programmable_gate_array][Field-programmable gate array - Wikipedia]]
+- [[https://tikv.org/deep-dive/key-value-engine/b-tree-vs-lsm/][TiKV | B-Tree vs LSM-Tree]]
+- [[https://www.extremetech.com/extreme/210492-extremetech-explains-how-do-ssds-work][How Do SSDs Work? - ExtremeTech]]
+- [[https://rockset.com/blog/remote-compactions-in-rocksdb-cloud/][Remote Compactions in RocksDB-Cloud | Rockset]]
+- [[https://singularity-data.com/blog/building-a-cloud-database-from-scratch-why-we-moved-from-cpp-to-rust/][Building a Cloud Database from Scratch: Why We Moved from C++ to Rust]]
+- 嘉宾推荐：
+  - [[https://www.nintendoswitch.com.cn/hardware/switch/oled][Nintendo Switch（OLED版本）]]
+  - [[https://zh.wikipedia.org/zh-hans/%E5%A1%9E%E5%B0%94%E8%BE%BE%E4%BC%A0%E8%AF%B4_%E6%97%B7%E9%87%8E%E4%B9%8B%E6%81%AF][塞尔达传说 旷野之息 - 维基百科]]
