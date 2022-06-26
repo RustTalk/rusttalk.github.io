@@ -43,7 +43,7 @@ enableGitInfo = true
     mainSections = ["post", "podcast"]
     fadian = """
 #### 如果 RustTalk 对您有所帮助
-- 欢迎在各大播客平台留言、打分、转发
+- 欢迎在各大[播客平台](https://xyzfm.link/jap43)留言、打分、转发
 - 也欢迎您为本节目进行[打赏支持](https://liujiacai.net/donate/) ❤️
 """
     dateformat = "2006-01-02"
