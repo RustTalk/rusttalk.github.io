@@ -41,6 +41,7 @@ enableGitInfo = true
 [params]
     logo = true
     mainSections = ["post", "podcast"]
+    git_repo = "https://github.com/RustTalk/rusttalk.github.io"
     fadian = """
 #### 如果 RustTalk 对您有所帮助
 - 欢迎在各大[播客平台](https://xyzfm.link/jap43)留言、打分、转发

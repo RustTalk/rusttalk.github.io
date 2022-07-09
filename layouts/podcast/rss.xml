@@ -53,7 +53,18 @@
         {{ with .Site.Params.fadian }}
         {{ .  | markdownify | html }}
         {{ end }}
+
+        {{ with .Params.podcast_image_src }}{{ $image := resources.Get . }}
+        {{ printf "<img src='%s'>" $image.Permalink }}
+        {{ end }}
+
         {{ .Content | html }}
+        {{ printf "<h2> 反馈 ✉️ </h2><ul><li>发现内容错误或链接失效？欢迎<a href='%s/blob/master/content/%s'>提交 PR</a></li><li>对节目有想法或建议？欢迎来信交流：<a href='mailto:%s'>%s</a></li></ul>"
+        .Site.Params.git_repo
+        .File.Path
+        .Site.Author.email
+        .Site.Author.email
+        }}
       </description>
       <enclosure url="{{.Params.podcast_mp3}}" type="audio/mpeg" length='{{ .Params.podcast_length }}'/>
       {{ with .Params.podcast_duration}}<itunes:duration>{{ . }}</itunes:duration>{{end}}
