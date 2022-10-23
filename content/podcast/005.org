@@ -1,13 +1,13 @@
 #+TITLE: 005. 与 LemonHX 畅聊新一代编程语言 Zig
 #+DATE: 2022-10-23T11:02:48+0800
-#+LASTMOD: 2022-10-23T13:16:05+0800
+#+LASTMOD: 2022-10-24T09:12:06+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/92a6-audiofreehighqps/D4/FD/GKwRIMAHKo0_AhsiaQG3WasK.m4a
 #+PODCAST_DURATION: 01:12:44
 #+PODCAST_LENGTH: 34737049
 #+PODCAST_IMAGE_SRC: guests/lemon.jpg
 
 * 概要
-本期嘉宾是柠檬，另一位 Rust 的干饭人，零零后，后浪程序员。
+本期嘉宾是张润哲（柠檬，LemonHX），另一位 Rust 的干饭人，零零后，后浪程序员。
 
 今天的话题是 [[https://ziglang.org/][Zig]] ⚡，一门新时代的系统语言。不得不承认，C/C++ 的“替代者”隔三差五就能上 hacker news 榜首，Go/Rust/D/Carbon 等等不一而足，在这之中，Zig 是怎样一种存在？它的特点是什么？它是 Rust 的竞争对手嘛？
 * 时间线
@@ -16,7 +16,7 @@
 - 00:07:00 Rust VS Zig 语言定位
 - 00:14:21 Zig 语言特点
 - 00:23:55 编译期执行 [[https://kristoff.it/blog/what-is-zig-comptime/][comptime]]
-- 00:29:40 =zig cc= 比 clang 更好用的编辑器
+- 00:29:40 =zig cc= ，比 clang 更好用的编译器
 - 00:39:41 Zig 未来发展方向
 - 00:53:48 Zig killer app: [[https://bun.sh/][bun.js]]
 - 00:59:54 Zig 其他有意思的项目介绍
@@ -25,56 +25,13 @@
 
 * Show Notes
 - 个人介绍
-  - 张润哲，柠檬（LemonHX）
   - [[https://lemonhx.moe/][博客]]、[[https://twitter.com/lemon_hx/][Twitter]]、[[https://github.com/lemonhx][GitHub]]
   - [[https://github.com/rustcc/RustChinaConf2020/blob/master/rustchinaconf2020/RustChinaConf2020-26.%E5%BC%A0%E6%B6%A6%E5%93%B2-%E3%80%8ARust%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91%E3%80%8B.pdf][RustChinaConf2020《Rust游戏引擎开发》]]
 - [[https://ziglang.org/learn/why_zig_rust_d_cpp/][Why Zig When There is Already C++, D, and Rust?]]
 - [[https://www.reddit.com/r/Zig/comments/y8torn/what_is_a_allocator_anyway/][What is a allocator anyway? : Zig]]
 - 在社区内，[[https://zigcc.github.io/monthly/202209/][Rust 与 Zig 关于安全问题的争论]]
 - =for<'a> T<'a>= ，[[https://doc.rust-lang.org/nomicon/hrtb.html][Higher-Rank Trait Bounds]]
-- comptime 实现 LinkedList 示例代码
-  #+begin_src zig
-fn LinkedList(comptime T: type) type {
-    return struct {
-        pub const Node = struct {
-            // ?T 表示 Option 类型，值可能为 null
-            prev: ?*Node,
-            next: ?*Node,
-            data: T,
-        };
-        first: ?*Node,
-        last:  ?*Node,
-        len:   usize,
-    };
-}
-// test 定义了一个测试代码快，zig test main.zig 时会执行这里面的代码
-test "linked list" {
-    try expect(LinkedList(i32) == LinkedList(i32));
-
-    var list = LinkedList(i32) {
-        .first = null,
-        .last = null,
-        .len = 0,
-    };
-    try expect(list.len == 0);
-
-    // Since types are first class values you can instantiate the type
-    // by assigning it to a variable:
-    const ListOfInts = LinkedList(i32);
-    try expect(ListOfInts == LinkedList(i32));
-
-    var node = ListOfInts.Node {
-        .prev = null,
-        .next = null,
-        .data = 1234,
-    };
-    var list2 = LinkedList(i32) {
-        .first = &node,
-        .last = &node,
-        .len = 1,
-    };
-}
-  #+end_src
+- 使用 comptime 实现的 [[https://github.com/RustTalk/rusttalk.github.io/blob/master/static/code/linked_list.zig][LinkedList 示例代码]]
 - [[https://dlang.org/][D Programming Language]]
 - [[https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html][`zig cc`: a Powerful Drop-In Replacement for GCC/Clang]]
 - [[https://actually.fyi/posts/zig-makes-rust-cross-compilation-just-work/][Zig Makes Rust Cross-compilation Just Work · Um, actually...]]
@@ -83,12 +40,12 @@ test "linked list" {
 - [[https://github.com/kprotty/zap][kprotty/zap]]: An asynchronous runtime with a focus on performance and resource efficiency
 - [[https://github.com/andrewrk/HellOS][andrewrk/HellOS]]: "hello world" x86 kernel example
 - 没有装箱的 monad：[[https://godbolt.org/z/bo3Mvdr7b]]
-- Zig 推荐学习网站
+- Zig 学习网站推荐
   - [[https://ziglearn.org/][Getting Started | ziglearn.org]]
   - [[https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50][Zig in 30 minutes · GitHub]]
 - [[https://zigcc.github.io/][Zig 中文社区]]
   - TG：https://t.me/ZigChinese
   - QQ：930564004
 - [[https://starcoin.org/zh/][Starcoin]]
-- [[https://github.com/lemonhx/lemon5][LemonHX/lemon5: 柠檬五码是一款自由的简单易学的开源音形输入法]]
-- [[https://github.com/lemonhx/wenshudb][LemonHX/wenshudb: 文书 DB 是一个柠檬在制作柠檬五码的时候的副产物]]
+- [[https://github.com/lemonhx/lemon5][lemon5]]: 柠檬五码是一款自由的简单易学的开源音形输入法
+- [[https://github.com/lemonhx/wenshudb][wenshudb]]: 文书 DB 是一个柠檬在制作柠檬五码的时候的副产物
