@@ -58,6 +58,11 @@ enableGitInfo = true
     copyright = "© 2022 [RustTalk](https://github.com/RustTalk/rusttalk.github.io) Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
     poweredby = true
     # footer = "footer"
+    [params.giscus]           # https://giscus.app/
+        repo = "RustTalk/rusttalk.github.io"
+        repoId = "R_kgDOGm5vDQ"
+        category = "Announcements"
+        categoryId = "DIC_kwDOGm5vDc4CSRaH"
     [params.podcast]
         local = false
         image = "logo3000.png"

@@ -1,6 +1,6 @@
 #+TITLE: 关于
 #+DATE: 2022-01-01T08:55:06+08:00
-#+LASTMOD: 2022-06-19T22:15:21+0800
+#+LASTMOD: 2022-10-30T09:45:45+0800
 
 #+BEGIN_EXPORT html
 <p align="center">
@@ -20,8 +20,9 @@ RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨�
 - 写信：[[mailto:rusttalk@liujiacai.net][rusttalk@liujiacai.net]]
 - Twitter：[[https://twitter.com/RustTalk][RustTalk]]
 - 听友群
-  - QQ：391884085
+  - 微信群：关注公众号获取
   - Telegram：https://t.me/rust_talk
+  - QQ：391884085
 - [[https://www.zhihu.com/column/c_1469645018268524546][知乎专栏]]（网站备份）
 - 微信公众号：RustTalk
   #+CAPTION: 微信公众号
