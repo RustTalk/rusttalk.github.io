@@ -1,7 +1,7 @@
 #+TITLE: 002. 与黄光星畅聊 Rust、Redis 与新加坡
 #+DATE: 2022-02-02T19:37:37+0800
-#+LASTMOD: 2022-02-02T22:10:29+0800
-#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/0749-audiofreehighqps/C2/35/GKwRIJIF0FFMAhGW8QETbxa6.m4a
+#+LASTMOD: 2022-11-19T18:02:38+0800
+#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/5e91-audiofreehighqps/67/42/GKwRIaIF0FCLABAAAAETbtyg.mp3
 #+PODCAST_DURATION: 01:11:27
 #+PODCAST_LENGTH: 34679352
 #+PODCAST_IMAGE_SRC: guests/doyoubi.jpg
