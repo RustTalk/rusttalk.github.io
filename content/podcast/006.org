@@ -1,0 +1,43 @@
+#+TITLE: 006. DatenLord CTO 施继成的 Rust 修炼之道
+#+DATE: 2022-11-20T22:50:18+0800
+#+LASTMOD: 2022-11-20T23:00:45+0800
+#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/e558-audiofreehighqps/27/BA/GKwRIasHT_5BArF1rwHQbyVd.m4a
+#+PODCAST_DURATION: 01:33:01
+#+PODCAST_LENGTH: 45184431
+#+PODCAST_IMAGE_SRC: guests/shijicheng.webp
+
+* 概要
+本期嘉宾是施继成，[[https://datenlord.github.io/en/home.html][达坦科技（DatenLord）]]联合创始人兼 CTO，Rust 社区活跃用户，现在
+B 站上有 [[https://www.bilibili.com/video/BV1fe4y1S7WV/][Rust for Linux is Coming]]、[[https://www.bilibili.com/video/BV1VA411L7tt/?vd_source=c9a0fa14cb8fc01b7eea3432c3c1550c][关于 Rust io_uring 异步接口实现的思考]]、[[https://www.bilibili.com/video/BV1k14y1L74W][开源分布式存储技术]]等相关分享。
+
+在本期节目时间较长，听众可以按照下面时间线选择收听。
+* 时间线
+- 00:00:27 嘉宾自我介绍
+- 00:03:28 DatenLord 公司简介 & 为什么选择 Rust
+- 00:14:55 Rust 的特性是独创的嘛？
+- 00:18:42 嘉宾学习 Rust 的过程 & 对初学者的建议
+- 00:25:37 异步 Runtime 的统一接口
+- 00:34:11 团队内的 Rust 编码规范如何制定？
+- 00:43:25 Rust 未来发展方向
+- 00:47:23 [[https://en.wikipedia.org/wiki/Rust_for_Linux][Rust for Kernel]] 的难度、意义
+- 01:08:48 DatenLord 是一家什么样的公司
+- 01:25:02 好物分享
+
+* 链接
+- 统一的异步 runtime 讨论
+  - [[https://runrust.miraheze.org/wiki/Async_crate_comparison#smol][Async crate comparison - Rust Community Wiki]]
+  - [[https://www.reddit.com/r/rust/comments/lad0la/abstraction_layer_for_async_runtimes/][Abstraction layer for async runtimes : rust]]
+  - [[https://www.reddit.com/r/rust/comments/l1rnn6/is_asyncstd_a_second_class_citizen/][Is async-std a second class citizen? : rust]]
+- [[https://rust-coding-guidelines.github.io/rust-coding-guidelines-zh/][Rust 编码规范 V 1.0 beta]]
+- [[https://thenewstack.io/rust-in-the-linux-kernel/][Rust in the Linux Kernel - The New Stack]]
+- 好物分享
+  - [[https://en.wikipedia.org/wiki/Happy_Hacking_Keyboard][Happy Hacking Keyboard - Wikipedia]]
+  - [[https://www.zhihu.com/question/266685242/answer/1134412877][HHKB 这种键盘真的好用吗？ - 知乎]]
+  - [[https://datenlord.github.io/en/join.html][DatenLord | Join us]]
+- DatenLord 微信公众号
+
+#+BEGIN_EXPORT html
+<p align="center">
+<img src="/misc/datenlord-qrcode.webp" title="DatenLord 微信公众号" />
+</p>
+#+END_EXPORT
