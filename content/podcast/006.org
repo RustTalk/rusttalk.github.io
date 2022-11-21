@@ -1,16 +1,22 @@
 #+TITLE: 006. DatenLord CTO 施继成的 Rust 修炼之道
 #+DATE: 2022-11-20T22:50:18+0800
-#+LASTMOD: 2022-11-20T23:00:45+0800
+#+LASTMOD: 2022-11-21T08:30:46+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/e558-audiofreehighqps/27/BA/GKwRIasHT_5BArF1rwHQbyVd.m4a
 #+PODCAST_DURATION: 01:33:01
 #+PODCAST_LENGTH: 45184431
 #+PODCAST_IMAGE_SRC: guests/shijicheng.webp
 
 * 概要
-本期嘉宾是施继成，[[https://datenlord.github.io/en/home.html][达坦科技（DatenLord）]]联合创始人兼 CTO，Rust 社区活跃用户，现在
-B 站上有 [[https://www.bilibili.com/video/BV1fe4y1S7WV/][Rust for Linux is Coming]]、[[https://www.bilibili.com/video/BV1VA411L7tt/?vd_source=c9a0fa14cb8fc01b7eea3432c3c1550c][关于 Rust io_uring 异步接口实现的思考]]、[[https://www.bilibili.com/video/BV1k14y1L74W][开源分布式存储技术]]等相关分享。
+本期嘉宾是施继成，[[https://datenlord.github.io/en/home.html][达坦科技（DatenLord）]]联合创始人兼 CTO，Rust 社区活跃用户，在
+B 站上有 [[https://www.bilibili.com/video/BV1fe4y1S7WV/][Rust for Linux is Coming]]、[[https://www.bilibili.com/video/BV1VA411L7tt/?vd_source=c9a0fa14cb8fc01b7eea3432c3c1550c][关于 Rust io_uring 异步接口实现的思考]]、[[https://www.bilibili.com/video/BV1k14y1L74W][开源分
+布式存储技术]]等技术分享。
 
-在本期节目时间较长，听众可以按照下面时间线选择收听。
+本期话题都聊得比较深入，因此时间较长，听众可以按照时间线选择收听。
+
+#+begin_quote
+I hope you guys enjoy listening to this as much as I enjoy making it!
+#+end_quote
+
 * 时间线
 - 00:00:27 嘉宾自我介绍
 - 00:03:28 DatenLord 公司简介 & 为什么选择 Rust
