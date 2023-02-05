@@ -1,6 +1,6 @@
 #+TITLE: 007. 于康的 Rust 贡献之旅
 #+DATE: 2023-02-05T16:33:13+0800
-#+LASTMOD: 2023-02-05T16:55:57+0800
+#+LASTMOD: 2023-02-05T17:00:23+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/8c5d-audiofreehighqps/34/E1/GKwRIJIHtTGXAi-ywgH0YZhZ.m4a
 #+PODCAST_DURATION: 01:15:31
 #+PODCAST_LENGTH: 36680386
@@ -16,8 +16,8 @@
 - 00:24:35 社区主导的语言弊端
 - 00:28:24 给 Rust 做贡献的经历
 - 00:52:14 印象最深的两个 PR
-- 01:02:52 Rust Fundation 基金申请经历
-- 01:09:23 在微软的远程办公经历（有彩蛋）
+- 01:02:52 Rust Foundation 基金申请经历
+- 01:09:23 在微软的远程办公经历
 - 01:11:50 好物分享
 
 * 链接
