@@ -1,0 +1,38 @@
+#+TITLE: 007. 于康的 Rust 贡献之旅
+#+DATE: 2023-02-05T16:33:13+0800
+#+LASTMOD: 2023-02-05T16:55:57+0800
+#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/8c5d-audiofreehighqps/34/E1/GKwRIJIHtTGXAi-ywgH0YZhZ.m4a
+#+PODCAST_DURATION: 01:15:31
+#+PODCAST_LENGTH: 36680386
+#+PODCAST_IMAGE_SRC: guests/yukang.webp
+
+本期嘉宾是具有 10 年工作经验的[[https://catcoding.me][于康]]，工作经历 EDA，DJI 大疆，目前在微软。
+
+在 2021 年开始给 Rust compiler 贡献代码，到目前为止，已经有 [[https://github.com/rust-lang/rust/pulls?q=is%3Apr+author%3Achenyukang+is%3Aclosed][70 多个]]。本期聊聊他的贡献经历。
+
+* 时间线
+- 00:02:23 接触 Rust 的初印象
+- 00:11:13 学习 Rust 经历
+- 00:24:35 社区主导的语言弊端
+- 00:28:24 给 Rust 做贡献的经历
+- 00:52:14 印象最深的两个 PR
+- 01:02:52 Rust Fundation 基金申请经历
+- 01:09:23 在微软的远程办公经历（有彩蛋）
+- 01:11:50 好物分享
+
+* 链接
+- 嘉宾社交信息
+  - 博客：[[https://catcoding.me/][程序员的喵]]
+  - Twitter：[[https://twitter.com/cyukang][@cyukang]]
+  - GitHub：[[https://github.com/chenyukang][chenyukang]]
+- [[https://eopl3.com/][Essentials of Programming Languages: 3rd edition]]
+- [[https://stackoverflow.com/questions/6703/when-is-oop-better-suited-for][When is OOP better suited for? - Stack Overflow]]
+- [[https://without.boats/blog/revisiting-a-smaller-rust/][Revisiting a 'smaller Rust' - Without boats, dreams dry up]]
+- [[https://www.ncameron.org/blog/rust-in-2023/][Rust in 2023]]
+- [[https://matklad.github.io/2023/01/25/next-rust-compiler.html][Next Rust Compiler]]
+- [[https://github.com/rust-lang/rust/pull/100502][Avoid infinite loop in function arguments checking by chenyukang · #100502]]
+- [[https://github.com/rust-lang/rust/pull/104012][Improve unexpected close and mismatch delimiter hint in TokenTreesReader by chenyukang · #104012]]
+- [[https://catcoding.me/p/how-to-contribute-to-rust/][为 Rust 做贡献的经验分享 | 程序员的喵]]
+- [[https://foundation.rust-lang.org/news/community-grants-program-awards-announcement-introducing-our-latest-project-grantees/][Rust Foundation - Introducing Our Newest Project Grantees]]
+- [[https://book.douban.com/subject/35876121/][纳瓦尔宝典 (豆瓣)]]
+- [[https://github.com/alist-org/alist][AList]]：🗂️ A file list program that supports multiple storage, powered by Gin and Solidjs.
