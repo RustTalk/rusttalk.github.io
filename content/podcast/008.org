@@ -1,0 +1,48 @@
+#+TITLE: 008. 与小福聊聊编译器那些事
+#+DATE: 2023-03-26T20:53:26+0800
+#+LASTMOD: 2023-03-26T22:18:24+0800
+#+AUTHOR: Jiacai Liu
+#+EMAIL: blog@liujiacai.net
+#+OPTIONS: toc:nil num:nil
+#+STARTUP: content
+#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/04e1-audiofreehighqps/14/38/GKwRIJEH9hYeAffkWwIHNndn.m4a
+#+PODCAST_DURATION: 01:07:59
+#+PODCAST_LENGTH: 33023067
+#+PODCAST_IMAGE_SRC: guests/xiaofu.jpg
+
+本期嘉宾是韦清福，网络 ID：[[https://www.zhihu.com/people/wx6db65c561568cbe2][开心的小福]]。嘉宾之前在字节跳动实习期间从事过 JVM 的研发，现在英伟达从事编译器后端工作，这一期就和他来聊一聊编译器，揭开 compiler 的神秘面纱。
+
+* 学习经历
+- 本科：[[https://www.uestc.edu.cn/][电子科技大学]]
+- 研究生：中科院计算所硕士—编译优化方向
+* 时间线
+- 00:00:43 嘉宾自我介绍
+- 00:02:50 为什么选择编译器这条路
+- 00:09:47 编译器入门经历
+- 00:21:01 读研期间是否推荐选择编译器？
+- 00:25:39 编译器开发协作模式
+- 00:47:10 Zig 使用 LLVM 的方式
+- 01:01:58 分享
+
+* 链接
+- [[https://book.douban.com/subject/3296317/][编译原理 (豆瓣)]]，俗称“龙书”
+- [[https://en.wikipedia.org/wiki/RISC-V][RISC-V - Wikipedia]]
+- [[https://www.nvidia.cn/geforce/technologies/cuda/][CUDA]] 是 NVIDIA 发明的一种并行计算平台和编程模型。它通过利用图形处理器 (GPU) 的处理能力，可大幅提升计算性能。
+- [[https://llvm.org/docs/ProgrammersManual.html#iterating-over-def-use-use-def-chains][Iterating over def-use & use-def chains]]
+- [[https://llvm.org/docs/BitCodeFormat.html][LLVM Bitcode File Format — LLVM 17.0.0git documentation]]
+- [[https://opensource.apple.com/source/clang/clang-23/clang/tools/clang/www/comparison.html][Comparing clang to other open source compilers]]
+- Zig 中 use-def 的问题： [[https://github.com/ziglang/zig/pull/13972][Optimize access of array member in a structure]]
+* 嘉宾分享
+- 编译器相关书籍
+  - 入门：[[https://www.amazon.com/Compiler-Construction-International-Computer-Science/dp/0201403536][Compiler construction]]
+  - 初级：[[https://www.amazon.com/Engineering-Compiler-Keith-Cooper/dp/012088478X][Engineering a compiler]]
+  - 中级：[[https://book.douban.com/subject/1171448/][现代体系结构的优化编译器]]
+  - 高级：LLVM 源码，编译方向论文
+- 体系结构
+  - CSAPP
+  - 计算机组成与设计：软硬件方法
+  - 计算机体系结构基础（胡伟武）
+  - Modern Processor Design: Fundamentals of Superscalar Processors
+  - 计算机系统结构-量化研究方法、各种论文
+
+  应用程序员学习完 CSAPP 即可
