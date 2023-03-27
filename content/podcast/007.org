@@ -1,10 +1,11 @@
 #+TITLE: 007. 于康的 Rust 贡献之旅
 #+DATE: 2023-02-05T16:33:13+0800
-#+LASTMOD: 2023-02-05T20:10:52+0800
+#+LASTMOD: 2023-03-27T20:48:50+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/8c5d-audiofreehighqps/34/E1/GKwRIJIHtTGXAi-ywgH0YZhZ.m4a
 #+PODCAST_DURATION: 01:15:31
 #+PODCAST_LENGTH: 36680386
 #+PODCAST_IMAGE_SRC: guests/yukang.webp
+#+PODCAST_IFRAME: https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/007---Rust-e1ufsid/a-a99luqi
 
 本期嘉宾是具有 10 年工作经验的[[https://catcoding.me][于康]]，工作经历 EDA，DJI 大疆，目前在微软。
 

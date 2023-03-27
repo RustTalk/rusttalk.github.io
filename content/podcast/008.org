@@ -1,6 +1,6 @@
 #+TITLE: 008. 与小福聊聊编译器那些事
 #+DATE: 2023-03-26T20:53:26+0800
-#+LASTMOD: 2023-03-26T22:18:24+0800
+#+LASTMOD: 2023-03-27T20:49:37+0800
 #+AUTHOR: Jiacai Liu
 #+EMAIL: blog@liujiacai.net
 #+OPTIONS: toc:nil num:nil
@@ -9,6 +9,7 @@
 #+PODCAST_DURATION: 01:07:59
 #+PODCAST_LENGTH: 33023067
 #+PODCAST_IMAGE_SRC: guests/xiaofu.jpg
+#+PODCAST_IFRAME: https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/008-e215kjj
 
 本期嘉宾是韦清福，网络 ID：[[https://www.zhihu.com/people/wx6db65c561568cbe2][开心的小福]]。嘉宾之前在字节跳动实习期间从事过 JVM 的研发，现在英伟达从事编译器后端工作，这一期就和他来聊一聊编译器，揭开 compiler 的神秘面纱。
 
@@ -46,3 +47,5 @@
   - 计算机系统结构-量化研究方法、各种论文
 
   应用程序员学习完 CSAPP 即可
+
+{{< img src="/xyz/008.webp" >}}

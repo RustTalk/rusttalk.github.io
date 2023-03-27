@@ -13,13 +13,19 @@ RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨�
 - 欢迎在各大[[https://xyzfm.link/jap43][播客平台]]留言、打分、转发
 - 也欢迎您为本节目进行[[https://liujiacai.net/donate/][打赏支持]] ❤️
 
+* 收听方式
+** 国内
+- [[https://www.xiaoyuzhoufm.com/podcast/61d06724ee197a3aac3dab61?s=eyJ1IjogIjYwNDVhZGQ0ZTBmNWU3MjNiYjBlNzU4YiJ9][小宇宙]]
+- 微信公众号
+** 国外
+- [[https://podcasts.apple.com/us/podcast/rusttalk/id1602908335][Apple Podcasts]]
+- [[https://podcasters.spotify.com/pod/show/rusttalk][Spotify for Podcasters]]
 * 联系方式
 - Twitter：[[https://twitter.com/RustTalk][@RustTalk]]
 - 听友群
   - 微信群：关注公众号获取
   - Telegram：https://t.me/rust_talk
   - QQ：391884085
-- [[https://www.zhihu.com/column/c_1469645018268524546][知乎专栏]]（网站备份）
 - 微信公众号：RustTalk
   #+CAPTION: 微信公众号
   #+ATTR_HTML: :alt 微信公众号
