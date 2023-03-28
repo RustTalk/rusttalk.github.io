@@ -1,6 +1,6 @@
 #+TITLE: 008. 与小福聊聊编译器那些事
 #+DATE: 2023-03-26T20:53:26+0800
-#+LASTMOD: 2023-03-27T20:49:37+0800
+#+LASTMOD: 2023-03-28T08:27:35+0800
 #+AUTHOR: Jiacai Liu
 #+EMAIL: blog@liujiacai.net
 #+OPTIONS: toc:nil num:nil
@@ -47,5 +47,3 @@
   - 计算机系统结构-量化研究方法、各种论文
 
   应用程序员学习完 CSAPP 即可
-
-{{< img src="/xyz/008.webp" >}}
