@@ -9,9 +9,7 @@ RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨�
 - 专注 Rust 社区，探索 Rust 社区背后的 *奇人轶事*
 - 不追求「枯燥无味」的干货，更关注「耐人寻味」经验分享
 
-如果 RustTalk 对您有所帮助
-- 欢迎在各大[[https://xyzfm.link/jap43][播客平台]]留言、打分、转发
-- 也欢迎您为本节目进行[[https://liujiacai.net/donate/][打赏支持]] ❤️
+** 欢迎听众[[https://liujiacai.net/donate/][打赏支持]]，您的支持是我不断创作的动力🍻
 
 * 收听方式
 ** 国内

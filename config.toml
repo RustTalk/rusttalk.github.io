@@ -43,9 +43,7 @@ enableGitInfo = true
     mainSections = ["post", "podcast"]
     git_repo = "https://github.com/RustTalk/rusttalk.github.io"
     fadian = """
-#### 如果 RustTalk 对您有所帮助
-- 欢迎在各大[播客平台](https://xyzfm.link/jap43)留言、打分、转发
-- 也欢迎您为本节目进行[打赏支持](https://liujiacai.net/donate/) ❤️
+#### 欢迎听众[打赏支持](https://liujiacai.net/donate/)，您的支持是我不断创作的动力🍻
 """
     dateformat = "2006-01-02"
     description = "RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。官网：rusttalk.github.io"
