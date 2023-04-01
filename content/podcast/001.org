@@ -1,10 +1,11 @@
 #+TITLE: 001. 与 Folyd 聊他的 Rust 使用经历
 #+DATE: 2022-01-23T21:51:49+0800
-#+LASTMOD: 2022-01-26T12:19:57+0800
+#+LASTMOD: 2023-04-01T23:05:26+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/48cc-audiofreehighqps/BF/8E/GKwRIaIFxbVTAcPDNwERJD3o.m4a
 #+PODCAST_DURATION: 01:00:57
 #+PODCAST_LENGTH: 29578878
 #+PODCAST_IMAGE_SRC: guests/folyd.jpg
+#+PODCAST_IFRAME: https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/001---Folyd--Rust-e1rnbvk/a-a8vu01n
 
 * 概要
 本期嘉宾是 Rust Search Extension 作者朱霜（网络 ID：Folyd），他在 2018 年开始接触 Rust 后，便一直活跃在 Rust 社区内，除了使用广泛的这个插件，他还参与了[[https://rustcc.cn/section?id=f4703117-7e6b-4caf-aa22-a3ad3db6898f][《Rust 日报》]]的编辑工作，而且还给 Rust 官方标准库贡献过代码，是一位追求极简主义的极客。本期节目聊到了他与 Rust 的种种有趣故事，近一个小时的内容，精彩不容错过。

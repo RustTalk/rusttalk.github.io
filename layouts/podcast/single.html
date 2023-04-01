@@ -6,9 +6,32 @@
 {{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . }}{{ end -}}
 {{ if .Params.tags }}{{ partial "tags.html" . }}{{ end -}}
 </header>
-{{ partial "podcast.html" . -}}
+
+{{if .Params.podcast_iframe -}}
+  <iframe src="{{ .Params.podcast_iframe }}" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
+{{ else -}}
+  {{ $src := ($.Param "podcast_mp3" | absURL) -}}
+  <figure class="podcast">
+    <audio controls preload="{{ .Site.Params.Podcast.preload | default "metadata" }}"><source src="{{ $src }}" type="audio/mpeg"></audio>
+  </figure>
+{{ end -}}
+
+{{if .Params.podcast_image_src -}}
+  {{ $resource := resources.Get .Params.podcast_image_src}}
+  <figure class="image {{ .Params.podcast_image_class | default "right" }}"><img src="{{ $resource.RelPermalink }}" width="{{ .Params.podcast_image_width | default "250" }}" alt="{{ .Params.podcast_image_alt }}" title="{{ .Params.podcast_image_alt }}"></figure>
+{{ end -}}
+
+
 <div class="content">
-{{ partial "fadian.html" . }}
+
+{{ with .Site.Params.fadian }}
+
+<div class="head-blockquote">
+    {{ . | markdownify}}
+</div>
+
+{{ end }}
+
 {{ .Content }}
 
 <h2>
@@ -35,6 +58,26 @@
 </ul>
 </div>
 </article>
-{{ partial "share-buttons.html" . }}
 </main>
+
+<style>
+  article a {
+      /* text-decoration-style: wavy; */
+      text-decoration-color: blue;
+      text-decoration-thickness: 2px;
+  }
+  figure figcaption {
+    text-align: center;
+    font-style: italic;
+    color: grey;
+  }
+
+  .head-blockquote  {
+      border: 1px;
+      border-style: dashed;
+      font-size: 15px;
+      padding-left: 15px;
+      background: #eee;
+  }
+</style>
 {{ end }}
