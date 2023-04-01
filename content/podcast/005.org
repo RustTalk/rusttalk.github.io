@@ -1,10 +1,11 @@
 #+TITLE: 005. 与 LemonHX 畅聊新一代编程语言 Zig
 #+DATE: 2022-10-23T11:02:48+0800
-#+LASTMOD: 2022-10-24T09:12:06+0800
+#+LASTMOD: 2023-04-01T23:55:07+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/92a6-audiofreehighqps/D4/FD/GKwRIMAHKo0_AhsiaQG3WasK.m4a
 #+PODCAST_DURATION: 01:12:44
 #+PODCAST_LENGTH: 34737049
 #+PODCAST_IMAGE_SRC: guests/lemon.jpg
+#+PODCAST_IFRAME:  https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/005---LemonHX--Zig-e1rnc3k/a-a8vu0ti
 
 * 概要
 本期嘉宾是张润哲（柠檬，LemonHX），另一位 Rust 的干饭人，零零后，后浪程序员。

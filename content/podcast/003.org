@@ -1,10 +1,11 @@
 #+TITLE: 003. 与 rustcc 早期成员 wayslog 闲聊 Rust
 #+DATE: 2022-03-01T19:30:52+0800
-#+LASTMOD: 2022-03-01T22:23:18+0800
+#+LASTMOD: 2023-04-01T23:56:48+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/586b-audiofreehighqps/0F/30/GKwRIMAF8-QWAYW4nwEhe7Mg.m4a
 #+PODCAST_DURATION: 00:52:35
 #+PODCAST_LENGTH: 25197532
 #+PODCAST_IMAGE_SRC: guests/wayslog.jpg
+#+PODCAST_IFRAME: https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/003---rustcc--wayslog--Rust-e1rnc2c/a-a8vu0n2
 
 * 概要
 本期嘉宾是赵雪松（网络 ID：wayslog）。出于好奇心，嘉宾在 2015 年大学毕业季接触到 Rust 后，便一直活跃在社区内，自诩“Rust 最菜讲师”，Rust 的干饭人。本期节目除了会聊到嘉宾的 Rust 使用经验，还会介绍 [[https://github.com/rustcc][rustcc 社区]]的运作方式，以及其中的一些趣事，最后，作为福利，嘉宾还提供了某跳动公司的内推机会，精彩不容错过。

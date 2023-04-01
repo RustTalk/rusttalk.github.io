@@ -1,10 +1,11 @@
 #+TITLE: 006. DatenLord CTO 施继成的 Rust 修炼之道
 #+DATE: 2022-11-20T22:50:18+0800
-#+LASTMOD: 2022-11-21T08:30:46+0800
+#+LASTMOD: 2023-04-01T23:52:49+0800
 #+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/e558-audiofreehighqps/27/BA/GKwRIasHT_5BArF1rwHQbyVd.m4a
 #+PODCAST_DURATION: 01:33:01
 #+PODCAST_LENGTH: 45184431
 #+PODCAST_IMAGE_SRC: guests/shijicheng.webp
+#+PODCAST_IFRAME: https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/006--DatenLord-CTO--Rust-e1sjgd5
 
 * 概要
 本期嘉宾是施继成，[[https://datenlord.github.io/en/home.html][达坦科技（DatenLord）]]联合创始人兼 CTO，Rust 社区活跃用户，在
