@@ -82,7 +82,11 @@
         .Site.Author.email
         }}
       </description>
+      {{ if .Params.podcast_mp3}}
       <enclosure url="{{.Params.podcast_mp3}}" type="audio/mpeg" length='{{ .Params.podcast_length }}'/>
+      {{ else }}
+      <enclosure url="https://en.liujiacai.net/podcast/RustTalk/{{.File.BaseFileName}}.mp3" type="audio/mpeg"/>
+      {{end}}
       {{ with .Params.podcast_duration}}<itunes:duration>{{ . }}</itunes:duration>{{end}}
       {{ with .Params.podcast_image_src }}{{ $image := resources.Get . }}<itunes:image href="{{ $image.Permalink }}" />{{ end }}
       {{ with .Params.podcast.episode }}<itunes:episode>{{ . }}</itunes:episode>{{ end }}

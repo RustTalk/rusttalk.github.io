@@ -1,7 +1,6 @@
 #+TITLE: 006. DatenLord CTO 施继成的 Rust 修炼之道
 #+DATE: 2022-11-20T22:50:18+0800
-#+LASTMOD: 2023-04-01T23:52:49+0800
-#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/e558-audiofreehighqps/27/BA/GKwRIasHT_5BArF1rwHQbyVd.m4a
+#+LASTMOD: 2023-04-23T19:22:10+0800
 #+PODCAST_DURATION: 01:33:01
 #+PODCAST_LENGTH: 45184431
 #+PODCAST_IMAGE_SRC: guests/shijicheng.webp

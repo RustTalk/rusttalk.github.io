@@ -1,7 +1,6 @@
 #+TITLE: 003. 与 rustcc 早期成员 wayslog 闲聊 Rust
 #+DATE: 2022-03-01T19:30:52+0800
-#+LASTMOD: 2023-04-01T23:56:48+0800
-#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/586b-audiofreehighqps/0F/30/GKwRIMAF8-QWAYW4nwEhe7Mg.m4a
+#+LASTMOD: 2023-04-23T19:21:55+0800
 #+PODCAST_DURATION: 00:52:35
 #+PODCAST_LENGTH: 25197532
 #+PODCAST_IMAGE_SRC: guests/wayslog.jpg

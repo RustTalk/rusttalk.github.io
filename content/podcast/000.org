@@ -1,7 +1,6 @@
 #+TITLE: 000. RustTalk 节目简介
 #+DATE: 2022-01-01T09:11:16+08:00
-#+LASTMOD: 2023-04-01T23:04:29+0800
-#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/da9a-audiofreehighqps/50/00/GKwRIJIFpiOtADIlSgEJIDCc.m4a
+#+LASTMOD: 2023-04-23T19:21:32+0800
 #+PODCAST_DURATION: 6:45
 #+PODCAST_LENGTH: 3286346
 #+PODCAST_IFRAME: https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/000--RustTalk-e1rmbkl/a-a8vq0oh

@@ -1,11 +1,10 @@
 #+TITLE: 008. 与小福聊聊编译器那些事
 #+DATE: 2023-03-26T20:53:26+0800
-#+LASTMOD: 2023-04-01T23:14:39+0800
+#+LASTMOD: 2023-04-23T19:20:48+0800
 #+AUTHOR: Jiacai Liu
 #+EMAIL: blog@liujiacai.net
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
-#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/04e1-audiofreehighqps/14/38/GKwRIJEH9hYeAffkWwIHNndn.m4a
 #+PODCAST_DURATION: 01:07:59
 #+PODCAST_LENGTH: 33023067
 #+PODCAST_IMAGE_SRC: guests/xiaofu.jpg

@@ -1,7 +1,6 @@
 #+TITLE: 001. 与 Folyd 聊他的 Rust 使用经历
 #+DATE: 2022-01-23T21:51:49+0800
-#+LASTMOD: 2023-04-01T23:05:26+0800
-#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/48cc-audiofreehighqps/BF/8E/GKwRIaIFxbVTAcPDNwERJD3o.m4a
+#+LASTMOD: 2023-04-23T19:21:38+0800
 #+PODCAST_DURATION: 01:00:57
 #+PODCAST_LENGTH: 29578878
 #+PODCAST_IMAGE_SRC: guests/folyd.jpg

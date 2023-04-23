@@ -1,7 +1,6 @@
 #+TITLE: 004. 与迟先生聊 Rust 与数据库系统
 #+DATE: 2022-06-18T22:12:48+0800
-#+LASTMOD: 2023-04-01T23:56:00+0800
-#+PODCAST_MP3: https://aod.cos.tx.xmcdn.com/storages/dbbc-audiofreehighqps/81/7F/GKwRIMAGhIGAAbyamwFtzLdH.m4a
+#+LASTMOD: 2023-04-23T19:22:01+0800
 #+PODCAST_DURATION: 00:59:59
 #+PODCAST_LENGTH: 29101492
 #+PODCAST_IMAGE_SRC: guests/chi.jpg
