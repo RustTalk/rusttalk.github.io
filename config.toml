@@ -53,7 +53,7 @@ enableGitInfo = true
     submitted = true
     sidebar = true
     mobileMenu = true
-    copyright = "© 2022 [RustTalk](https://github.com/RustTalk/rusttalk.github.io) Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+    copyright = "© 2022 - 2023 [RustTalk](https://github.com/RustTalk/rusttalk.github.io) Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
     poweredby = true
     # footer = "footer"
     [params.giscus]           # https://giscus.app/
