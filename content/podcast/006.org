@@ -7,7 +7,7 @@
 #+PODCAST_IFRAME: https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/006--DatenLord-CTO--Rust-e1sjgd5
 
 * 概要
-本期嘉宾是施继成，[[https://datenlord.github.io/en/home.html][达坦科技（DatenLord）]]联合创始人兼 CTO，Rust 社区活跃用户，在
+本期嘉宾是施继成，[[https://datenlord.github.io/][达坦科技（DatenLord）]]联合创始人兼 CTO，Rust 社区活跃用户，在
 B 站上有 [[https://www.bilibili.com/video/BV1fe4y1S7WV/][Rust for Linux is Coming]]、[[https://www.bilibili.com/video/BV1VA411L7tt/?vd_source=c9a0fa14cb8fc01b7eea3432c3c1550c][关于 Rust io_uring 异步接口实现的思考]]、[[https://www.bilibili.com/video/BV1k14y1L74W][开源分
 布式存储技术]]等技术分享。
 
