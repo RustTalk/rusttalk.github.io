@@ -1,11 +1,12 @@
 #+TITLE: 009. 卡比卡比的开源贡献之旅
 #+DATE: 2023-12-16T21:14:03+0800
-#+LASTMOD: 2023-12-16T22:15:54+0800
+#+LASTMOD: 2023-12-16T22:38:19+0800
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
 #+PODCAST_DURATION: 01:17:56
 #+PODCAST_LENGTH: 33023067
 #+PODCAST_IMAGE_SRC: guests/kabikabi.jpg
+#+PODCAST_MP3: https://en.liujiacai.net/podcast/RustTalk/009.mp3
 
 本期嘉宾是卡比卡比，虽然他毕业不到三年，但已经成多个开源项目的重度参与者，而且已经是 Apache Arrow 的 PMC，他是怎么做得到？他的开源经历，对我们能有什么启发？这些问题都可以在本期节目中找到答案。
 
@@ -16,6 +17,18 @@
 - 00:27:38 Apache Arrow/DataFusion 贡献经历
 - 01:09:07 如何参与开源项目
 - 01:16:38 嘉宾分享
+* AI 分段
+- 00:02:06 从校园开发到实际编程：我的职业转型经历
+- 00:07:04 数据库优化器：掌握核心代码为未来工作打下坚实基础
+- 00:14:07 工程实践中的难点与解决方案：CO The ForReason执行的重要性
+- 00:21:14 "基于 Apache Doris 商业开发：开源社区协作的问题"
+- 00:28:16 DataFusion 瑾项目社区友好，让我们能够持续参与开源项目
+- 00:35:24 Rust语言：开源之路的合适选择
+- 00:42:29 探索学习路径：为什么 Rust 实现上的问题总是难以解决？
+- 00:49:32 Rust 本身的设计存在缺陷，需要深入探讨其设计原因和影响
+- 00:56:36 DataFusion 的定位与优势--高效的执行引擎
+- 01:03:46 开源贡献：论迹不论心
+- 01:10:51 要寻找自己擅长的领域并长期为项目做出贡献。
 * 链接
 - 嘉宾个人信息
   - GitHub：https://github.com/jackwener
