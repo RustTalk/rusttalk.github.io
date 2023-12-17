@@ -1,6 +1,6 @@
 #+TITLE: 009. 卡比卡比的开源贡献之旅
 #+DATE: 2023-12-16T21:14:03+0800
-#+LASTMOD: 2023-12-16T22:38:19+0800
+#+LASTMOD: 2023-12-17T09:20:39+0800
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
 #+PODCAST_DURATION: 01:17:56
@@ -20,7 +20,7 @@
 * AI 分段
 - 00:02:06 从校园开发到实际编程：我的职业转型经历
 - 00:07:04 数据库优化器：掌握核心代码为未来工作打下坚实基础
-- 00:14:07 工程实践中的难点与解决方案：CO The ForReason执行的重要性
+- 00:14:07 工程实践中的难点与解决方案：[[https://en.wikipedia.org/wiki/Freeze_(software_engineering)][Code freeze]]
 - 00:21:14 "基于 Apache Doris 商业开发：开源社区协作的问题"
 - 00:28:16 DataFusion 瑾项目社区友好，让我们能够持续参与开源项目
 - 00:35:24 Rust语言：开源之路的合适选择
@@ -31,11 +31,14 @@
 - 01:10:51 要寻找自己擅长的领域并长期为项目做出贡献。
 * 链接
 - 嘉宾个人信息
-  - GitHub：https://github.com/jackwener
+  - https://github.com/jackwener
   - 邮箱：jakevingoo#gmail.com
+  - 学习经历：华中科技大学本科毕业
+  - 工作经历：目前在 SelectDB 做优化器，之前在 NebulaGraph /字节工作过，以前在抖音/微软/腾讯实习过
 - [[https://github.com/apache/arrow-datafusion][DataFusion]] is a very fast, extensible query engine for building high-quality data-centric systems in Rust
-- [[https://arrow.apache.org/][Apache Arrow]]，A cross-language development platform for in-memory analytics
-- [[https://doris.apache.org/][Apache Doris]], A new-generation open-source real-time data warehouse based on MPP architecture
+- [[https://arrow.apache.org/][Apache Arrow]] is a cross-language development platform for in-memory analytics
+- [[https://doris.apache.org/][Apache Doris]] is a new-generation open-source real-time data warehouse based on MPP architecture
+- [[https://arrow.apache.org/ballista/][Apache Arrow Ballista]] 基于 DataFusion 实现的分布式查询引擎
 - [[https://15445.courses.cs.cmu.edu/fall2023/][CMU 15445]] 课程
 - [[https://pdos.csail.mit.edu/6.824/][MIT 6.5840]] 课程
 - [[https://github.com/pingcap/talent-plan][pingcap/talent-plan]]
@@ -44,3 +47,5 @@
   - [[https://15721.courses.cs.cmu.edu/spring2019/papers/22-optimizer1/xu-columbia-thesis1998.pdf  ][Columbia 论文]]
   - [[https://impala.apache.org/][Apache Impala]]
 - [[https://book.douban.com/subject/35545272/][贪婪的多巴胺]]
+
+{{< fig url="/meetings/009-meeting.jpg" >}}

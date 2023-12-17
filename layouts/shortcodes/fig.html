@@ -1,0 +1,10 @@
+<figure>
+  <img src='{{ .Get "url" }}'
+       {{ if (isset .Params "width") }}
+       width='{{ .Get "width"}}'
+       {{end}}
+       />
+  {{ if or (isset .Params "caption") (isset .Params "alt") }}
+  <figcaption>{{ (or (.Get "caption") (.Get "alt")) | $.Page.RenderString }}</figcaption>
+  {{ end }}
+</figure>
