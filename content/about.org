@@ -1,6 +1,6 @@
 #+TITLE: 关于
 #+DATE: 2022-01-01T08:55:06+08:00
-#+LASTMOD: 2023-07-01T17:30:59+0800
+#+LASTMOD: 2023-12-18T20:05:27+0800
 
 #+BEGIN_EXPORT html
 <p align="center">
@@ -22,8 +22,6 @@ RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨�
 - [[https://mastodon.social/@liujiacai][Mastodon]]
 - 听友群
   - 微信群：关注公众号获取
-  - Telegram：https://t.me/rust_talk
-  - QQ：391884085
 - [[https://www.zhihu.com/column/c_1469645018268524546][知乎专栏]]（网站备份）
 - 微信公众号：RustTalk
   #+CAPTION: 微信公众号
