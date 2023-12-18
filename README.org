@@ -22,8 +22,6 @@ RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨�
 - Twitter：[[https://twitter.com/RustTalk][@RustTalk]]
 - 听友群
   - 微信群：关注公众号获取
-  - Telegram：https://t.me/rust_talk
-  - QQ：391884085
 - 微信公众号：RustTalk
   #+CAPTION: 微信公众号
   #+ATTR_HTML: :alt 微信公众号
