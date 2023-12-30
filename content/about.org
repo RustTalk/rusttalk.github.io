@@ -1,10 +1,14 @@
 #+TITLE: 关于
 #+DATE: 2022-01-01T08:55:06+08:00
-#+LASTMOD: 2023-12-18T20:05:27+0800
+#+LASTMOD: 2023-12-30T11:59:02+0800
+
+[[https://twitter.com/RustTalk][https://img.shields.io/twitter/follow/rusttalk.svg]]
+[[https://t.me/rust_talk][file:static/images/chat-on-telegram.svg]]
+[[https://rusttalk.github.io/podcast/index.xml][https://img.shields.io/badge/rss-F88900.svg?style=flat&logo=rss&logoColor=white]]
 
 #+BEGIN_EXPORT html
 <p align="center">
-<img src="/apple-touch-icon.png" title="RustTalk Logo" />
+<img src="https://rusttalk.github.io/apple-touch-icon.png" title="RustTalk Logo" />
 </p>
 #+END_EXPORT
 
@@ -18,15 +22,14 @@ RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨�
 
 * 联系方式
 - 邮件：[[mailto:rusttalk@liujiacai.net][rusttalk@liujiacai.net]]
-- [[https://twitter.com/RustTalk][Twitter]]
-- [[https://mastodon.social/@liujiacai][Mastodon]]
-- 听友群
-  - 微信群：关注公众号获取
-- [[https://www.zhihu.com/column/c_1469645018268524546][知乎专栏]]（网站备份）
+- Twitter：[[https://twitter.com/RustTalk][@RustTalk]]
+- 听友群：https://discord.gg/DNFkanA2pa
 - 微信公众号：RustTalk
-  #+CAPTION: 微信公众号
-  [[/images/weixin.jpg]]
-
+  #+BEGIN_EXPORT html
+<p align="center">
+<img src="https://rusttalk.github.io/images/weixin.jpg" />
+</p>
+#+END_EXPORT
 * 主播
 - 西瓜 :: 个人博客：https://liujiacai.net/
 
