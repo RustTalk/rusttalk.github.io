@@ -20,8 +20,7 @@ RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨�
 - [[https://podcasters.spotify.com/pod/show/rusttalk][Spotify for Podcasters]]
 * 联系方式
 - Twitter：[[https://twitter.com/RustTalk][@RustTalk]]
-- 听友群
-  - 微信群：关注公众号获取
+- 听友群：https://discord.gg/DNFkanA2pa
 - 微信公众号：RustTalk
   #+CAPTION: 微信公众号
   #+ATTR_HTML: :alt 微信公众号
