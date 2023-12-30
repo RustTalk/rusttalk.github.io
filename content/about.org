@@ -1,12 +1,18 @@
 #+TITLE: 关于
 #+DATE: 2022-01-01T08:55:06+08:00
-#+LASTMOD: 2023-12-30T11:59:02+0800
-
-[[https://twitter.com/RustTalk][https://img.shields.io/twitter/follow/rusttalk.svg]]
-[[https://t.me/rust_talk][file:static/images/chat-on-telegram.svg]]
-[[https://rusttalk.github.io/podcast/index.xml][https://img.shields.io/badge/rss-F88900.svg?style=flat&logo=rss&logoColor=white]]
+#+LASTMOD: 2023-12-30T12:11:08+0800
 
 #+BEGIN_EXPORT html
+<a href="https://twitter.com/RustTalk">
+<img src="https://img.shields.io/twitter/follow/rusttalk.svg" />
+</a>
+<a href="https://discord.gg/DNFkanA2pa">
+<img src="https://img.shields.io/discord/1190499987537268756?label=Discord" />
+</a>
+<a href="https://rusttalk.github.io/podcast/index.xml">
+<img src="https://img.shields.io/badge/rss-F88900.svg?style=flat&logo=rss&logoColor=white" />
+</a>
+
 <p align="center">
 <img src="https://rusttalk.github.io/apple-touch-icon.png" title="RustTalk Logo" />
 </p>
