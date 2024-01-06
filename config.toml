@@ -41,6 +41,7 @@ enableGitInfo = true
 [params]
     logo = true
     mainSections = ["post", "podcast"]
+    mp3Root = "https://liujiacai.net/cdn-mp3/"
     git_repo = "https://github.com/RustTalk/rusttalk.github.io"
     fadian = """
 #### 欢迎听众[打赏支持](https://liujiacai.net/donate/)，您的支持是我不断创作的动力🍻
