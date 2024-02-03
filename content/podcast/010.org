@@ -1,0 +1,33 @@
+#+TITLE: 010. 特别节目：闲话 Zig，另一个 Better C 的语言
+#+DATE: 2024-02-03T17:48:12+0800
+#+LASTMOD: 2024-02-03T20:25:06+0800
+#+OPTIONS: toc:nil num:nil
+#+STARTUP: content
+#+PODCAST_DURATION: 01:56:25
+#+PODCAST_LENGTH: 29316593
+#+PODCAST_IMAGE_SRC: guests/Zig-vs-Rust.webp
+
+在新一代的 Better C 里，Rust、Zig 是经常被对比的两个语言，本期是 [[https://zigcc.github.io/][ZigCC]] 的 [[https://github.com/zigcc/forum/issues/96][2024 New Year Party]] 线上会议的片段，主要讨论内容：
+- Zig 与 C/CPP/Rust 的对比，包括编译速度、大小、抽象程度等
+- Zig 可发力的方向。目前看，图像处理（GPU）、嵌入式、游戏是几个比较有潜力的方向
+
+* 链接
+- [[https://kristoff.it/blog/what-is-zig-comptime/][What is Zig's Comptime?]]
+- [[https://github.com/webui-dev/zig-webui][webui-dev/zig-webui]]： Use any web browser as GUI, with Zig in the backend and HTML5 in the frontend.
+- [[https://github.com/EmbarkStudios/rust-gpu][EmbarkStudios/rust-gpu]]：Making Rust a first-class language and ecosystem for GPU shaders
+- [[https://github.com/Rust-GPU/Rust-CUDA][Rust-GPU/Rust-CUDA]]：Ecosystem of libraries and tools for writing and executing fast GPU code fully in Rust.
+- [[https://bevyengine.org/][Bevy Engine]]：A refreshingly simple data-driven game engine built in Rust. Free and Open Source Forever!
+- [[https://blog.rust-lang.org/2023/12/21/async-fn-rpit-in-traits.html][Announcing `async fn` and return-position `impl Trait` in traits]]
+- [[https://en.wikipedia.org/wiki/Jonathan_Blow#2017%E2%80%93present:_Jai_programming_language,_untitled_Sokoban_game,_and_Braid,_Anniversary_Edition][Jonathan Blow 2017–present]]：Jai programming language, untitled Sokoban game, and Braid, Anniversary Edition
+- [[https://arxiv.org/abs/2209.09127][Is Rust C++-fast? Benchmarking System Languages on Everyday Routines]]
+- [[https://developer.nvidia.com/opencl][Open Computing Language OpenCL | NVIDIA Developer]]
+- [[https://en.wikipedia.org/wiki/Single_compilation_unit][Single compilation unit]]
+- [[https://kristoff.it/blog/zig-new-relationship-llvm/][Zig's New Relationship with LLVM | Loris Cro's Blog]]
+- [[https://news.ycombinator.com/item?id=32405848][Assorted thoughts on Zig and Rust (2020) | Hacker News]]
+- [[https://mitchellh.com/zig/build-internals][Zig Build System Internals – Mitchell Hashimoto]]
+- [[https://ziggit.dev/t/36-zig-roadmap-2024-andrew-kelley/3024/6?u=jiacai2050][Zig roadmap 2024]]: incremental compilation
+- [[https://github.com/andrewrk/ffmpeg][andrewrk/ffmpeg: ffmpeg with the build system replaced by zig]]
+- [[https://github.com/dtolnay/cxx][dtolnay/cxx: Safe interop between Rust and C++]]
+- [[https://nullderef.com/blog/plugin-tech/][Plugins in Rust: The Technologies | NullDeref]]
+- [[https://github.com/ziglang/zig/issues/16270#issuecomment-1905107583][make the main zig executable no longer depend on LLVM, LLD, and Clang libraries]]
+- [[https://github.com/rustdesk/rustdesk/discussions/533][Tauri or Flutter for RustDesk desktop? · rustdesk/rustdesk · Discussion #533]]
