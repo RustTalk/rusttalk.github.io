@@ -1,13 +1,15 @@
 #+TITLE: 010. 特别节目：闲话 Zig，另一个 Better C 的语言
 #+DATE: 2024-02-03T17:48:12+0800
-#+LASTMOD: 2024-02-03T20:25:06+0800
+#+LASTMOD: 2024-02-03T21:18:56+0800
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
 #+PODCAST_DURATION: 01:56:25
 #+PODCAST_LENGTH: 29316593
 #+PODCAST_IMAGE_SRC: guests/Zig-vs-Rust.webp
 
-在新一代的 Better C 里，Rust、Zig 是经常被对比的两个语言，本期是 [[https://zigcc.github.io/][ZigCC]] 的 [[https://github.com/zigcc/forum/issues/96][2024 New Year Party]] 线上会议的片段，主要讨论内容：
+在新一代的 Better C 里，Rust、Zig 是经常被对比的两个语言，之前在[[/podcast/005/][第五期]]的节目中聊到过，本期继续讨论这个语言。
+
+本期内容来自 [[https://zigcc.github.io/][ZigCC]] 的 [[https://github.com/zigcc/forum/issues/96][2024 New Year Party]] 线上会议的片段，主要讨论内容：
 - Zig 与 C/CPP/Rust 的对比，包括编译速度、大小、抽象程度等
 - Zig 可发力的方向。目前看，图像处理（GPU）、嵌入式、游戏是几个比较有潜力的方向
 
