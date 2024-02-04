@@ -1,0 +1,25 @@
+#+TITLE: 011. 碎碎念：黄光星 2023 年的工作与生活
+#+DATE: 2024-02-04T21:24:33+0800
+#+LASTMOD: 2024-02-04T22:06:40+0800
+#+OPTIONS: toc:nil num:nil
+#+STARTUP: content
+#+PODCAST_DURATION: 01:12:01
+#+PODCAST_LENGTH: 20859128
+#+PODCAST_IMAGE_SRC: guests/doyoubi2.jpg
+
+这一期是 2024 新春特别节目，与老朋友黄光星来聊一聊他的 2023 年的工作与生活。也提前祝听友们新年快乐！
+
+* 链接
+- [[https://bazel.build/][Bazel]]：Tensorflow 构建工具
+- [[https://python-poetry.org/][Poetry]]：Python packaging and dependency management made easy
+- 训练 LLM 的两个常用项目：
+  - https://github.com/NVIDIA/Megatron-LM
+  - https://github.com/microsoft/DeepSpeed
+- [[https://arxiv.org/abs/2401.10241][Zero Bubble Pipeline Parallelism | arxiv]]
+  - 论文解读：[[https://mp.weixin.qq.com/s/PXjYm9dN8C9B8svMQ7nOvw][AI Infra论文阅读之将流水线并行气泡几乎降到零]]
+- 好物分享：
+  - [[https://www.krenzartwork.com/][KK 魔法學院]]
+  - [[https://book.douban.com/subject/27665420/][美国的故事]]，豆瓣 9.1 分
+
+最后附上嘉宾的灵魂画作：
+[[/images/doyoubi-drawing.jpg]]
