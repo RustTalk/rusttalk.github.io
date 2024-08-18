@@ -1,6 +1,6 @@
 #+TITLE: 关于
 #+DATE: 2022-01-01T08:55:06+08:00
-#+LASTMOD: 2023-12-30T12:11:08+0800
+#+LASTMOD: 2024-08-19T09:19:01+0800
 
 #+BEGIN_EXPORT html
 <a href="https://twitter.com/RustTalk">
@@ -29,7 +29,8 @@ RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。节目主旨�
 * 联系方式
 - 邮件：[[mailto:rusttalk@liujiacai.net][rusttalk@liujiacai.net]]
 - Twitter：[[https://twitter.com/RustTalk][@RustTalk]]
-- 听友群：https://discord.gg/DNFkanA2pa
+- Telegram: [[https://t.me/rust_talk][@rust_talk]]
+- Discord：https://discord.gg/DNFkanA2pa
 - 微信公众号：RustTalk
   #+BEGIN_EXPORT html
 <p align="center">

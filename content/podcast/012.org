@@ -1,6 +1,6 @@
-#+TITLE: 012. 与马道长畅聊容器发展史与 Rust 推广
+#+TITLE: 012. 与马道长畅聊 Docker 发展史与 Rust 推广
 #+DATE: 2024-08-18T22:34:31+0800
-#+LASTMOD: 2024-08-18T23:18:50+0800
+#+LASTMOD: 2024-08-19T09:10:47+0800
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
 #+PODCAST_DURATION: 01:50:48
@@ -21,5 +21,5 @@
 - [[https://device.harmonyos.com/cn/docs/documentation/guide/rust_editor-0000001684413665][OpenHarmony 设备开发 Rust代码编辑]]
 - [[https://www.infoq.cn/article/k24682buljt4bdjb7q7u][华为也为 Rust “狂”：揭秘国内唯一 Rust 基金会创始成员背后的人与事]]
 - 好物分享
-  - [[https://book.douban.com/subject/5406042/][设计原本]]， 豆瓣评分：7.7
+  - [[https://book.douban.com/subject/5406042/][设计原本]]，豆瓣评分：7.7，[[https://u.jd.com/mq9SBKa][京东链接]]
   - [[https://zed.dev/][Zed]]：Code at the speed of thought
