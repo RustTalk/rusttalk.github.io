@@ -1,0 +1,25 @@
+#+TITLE: 012. 与马道长畅聊容器发展史与 Rust 推广
+#+DATE: 2024-08-18T22:34:31+0800
+#+LASTMOD: 2024-08-18T23:18:50+0800
+#+OPTIONS: toc:nil num:nil
+#+STARTUP: content
+#+PODCAST_DURATION: 01:50:48
+#+PODCAST_LENGTH: 31566301
+#+PODCAST_IMAGE_SRC: guests/genedna.jpg
+
+本期的嘉宾是马全一（网络 ID：马道长 genedna），目前在华为 2012 实验室开源管理中心，负责 Rust 国内生态发展推广工作。
+
+在节目前半部分，道长分享了自己从业多年来的职业演变历程，作为容器技术（Docker）的早期接触者，道长在节目中分享了 Docker 在众多技术中脱颖而出的关键点，以及 Docker 是如何一步步没落的。
+
+在后半部分，主要聊到了 Rust 的推广，让人欣喜的是，华为通过教育部的智能基座项目，目前和 50 多所高校签订了合作协议，资助高校老师开设 Rust 编程语言的相关课程。
+
+近 2 个小时的内容分享，精彩不容错过 🦀
+
+* 链接
+- 嘉宾信息：[[ https://maquanyi.com][个人博客]]、[[https://twitter.com/genedna][Twitter]]、[[https://github.com/genedna][GitHub]]
+- [[https://trusted-programming.github.io/][Trusted Programming ❤️️ Huawei]]
+- [[https://device.harmonyos.com/cn/docs/documentation/guide/rust_editor-0000001684413665][OpenHarmony 设备开发 Rust代码编辑]]
+- [[https://www.infoq.cn/article/k24682buljt4bdjb7q7u][华为也为 Rust “狂”：揭秘国内唯一 Rust 基金会创始成员背后的人与事]]
+- 好物分享
+  - [[https://book.douban.com/subject/5406042/][设计原本]]， 豆瓣评分：7.7
+  - [[https://zed.dev/][Zed]]：Code at the speed of thought
