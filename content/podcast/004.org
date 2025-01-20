@@ -1,9 +1,9 @@
 #+TITLE: 004. 与迟先生聊 Rust 与数据库系统
 #+DATE: 2022-06-18T22:12:48+0800
-#+LASTMOD: 2023-04-23T19:22:01+0800
+#+LASTMOD: 2025-01-20T22:38:20+0800
 #+PODCAST_DURATION: 00:59:59
 #+PODCAST_LENGTH: 29101492
-#+PODCAST_IMAGE_SRC: guests/chi.jpg
+#+PODCAST_IMAGE_SRC: guests/chi.webp
 #+PODCAST_IFRAME: https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/004---Rust-e1rnc31
 
 * 概要

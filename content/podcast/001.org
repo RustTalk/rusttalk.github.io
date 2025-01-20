@@ -1,9 +1,9 @@
 #+TITLE: 001. 与 Folyd 聊他的 Rust 使用经历
 #+DATE: 2022-01-23T21:51:49+0800
-#+LASTMOD: 2023-04-23T19:21:38+0800
+#+LASTMOD: 2025-01-20T22:38:20+0800
 #+PODCAST_DURATION: 01:00:57
 #+PODCAST_LENGTH: 29578878
-#+PODCAST_IMAGE_SRC: guests/folyd.jpg
+#+PODCAST_IMAGE_SRC: guests/folyd.webp
 #+PODCAST_IFRAME: https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/001---Folyd--Rust-e1rnbvk/a-a8vu01n
 
 * 概要

@@ -1,0 +1,25 @@
+#+TITLE: 013. 跨行程序员 driftluo 的 Rust 历程
+#+DATE: 2025-01-20T22:38:20+0800
+#+LASTMOD: 2025-01-20T22:51:28+0800
+#+OPTIONS: toc:nil num:nil
+#+STARTUP: content
+#+PODCAST_DURATION: 01:13:22
+#+PODCAST_LENGTH: 19921023
+#+PODCAST_IMAGE_SRC: guests/driftluo.webp
+
+本期我们很荣幸邀请到了一位跨行程序员 drift luo 作为嘉宾。他本科专业是会计，但在工作过程中因项目需求和个人兴趣，逐渐转向了编程领域。特别引人注目的是，为了解决 Python 内存占用过高的问题，他在 2017 年就开始深入研究 Rust 语言。要知道，那时的 Rust 还处于相对早期阶段，不仅生态系统远不如今天完善，连最基础的 borrow checker 机制都尚未完全成熟。作为一个非计算机专业出身的开发者，能在那个时期就开始钻研 Rust，着实令人惊叹。
+
+* 链接
+- 嘉宾个人信息
+  - 博客: https://www.driftluo.com
+  - https://github.com/driftluo
+  - 学习经历：江西财经大学现经管学院，会计系
+  - 工作经历：用友、外包、秘猿科技
+- [[https://www.driftluo.com/article/a10b4013-0e6f-4ff0-901f-475aae63311f][2017 年末随笔]]，嘉宾就是因为这个文章获得了秘猿科技的面试机会
+- [[https://www.driftluo.com/article/9e85ea7c-219a-4b25-ab32-e66c5d3027d0][禁止使用 async function 去实现 poll function]]
+- [[https://www.driftluo.com/article/30b54697-f744-4689-919d-071ed687a89e][在异步环境下的共享状态]]
+- [[https://www.infoq.cn/article/2016/09/ethereum-dos-attack][以太网络出现漏洞，以太坊边召开开发者大会边修复]]。所有基于 Go 语言编写的以太坊 1.4.11 版本客户端出现内存溢出错误，并阻止了进一步挖矿，但 Rust 编写的 Parity 客户端并未受此次攻击的影响。
+- 好物推荐
+  - [[https://book.douban.com/subject/35546622/][置身事内]]，(豆瓣：9.1 分)
+  - [[https://book.douban.com/subject/35604398/][病人家属，请来一下]]， (豆瓣：8.6 分)
+  - [[https://book.douban.com/subject/36392716/][医生，你在想什么]]，(豆瓣：8.2 分)

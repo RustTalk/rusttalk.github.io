@@ -1,9 +1,9 @@
 #+TITLE: 005. 与 LemonHX 畅聊新一代编程语言 Zig
 #+DATE: 2022-10-23T11:02:48+0800
-#+LASTMOD: 2023-04-23T19:22:05+0800
+#+LASTMOD: 2025-01-20T22:38:20+0800
 #+PODCAST_DURATION: 01:12:44
 #+PODCAST_LENGTH: 34737049
-#+PODCAST_IMAGE_SRC: guests/lemon.jpg
+#+PODCAST_IMAGE_SRC: guests/lemon.webp
 #+PODCAST_IFRAME:  https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/005---LemonHX--Zig-e1rnc3k/a-a8vu0ti
 
 * 概要

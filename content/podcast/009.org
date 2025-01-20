@@ -1,11 +1,11 @@
 #+TITLE: 009. 卡比卡比的开源贡献之旅
 #+DATE: 2023-12-16T21:14:03+0800
-#+LASTMOD: 2024-01-06T22:16:48+0800
+#+LASTMOD: 2025-01-20T22:38:20+0800
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
 #+PODCAST_DURATION: 01:17:56
 #+PODCAST_LENGTH: 33023067
-#+PODCAST_IMAGE_SRC: guests/kabikabi.jpg
+#+PODCAST_IMAGE_SRC: guests/kabikabi.webp
 
 本期嘉宾是卡比卡比，虽然他毕业不到三年，但已经成多个开源项目的重度参与者，而且已经是 Apache Arrow 的 PMC，他是怎么做得到？他的开源经历，对我们能有什么启发？这些问题都可以在本期节目中找到答案。
 

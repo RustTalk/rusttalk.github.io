@@ -1,11 +1,11 @@
 #+TITLE: 011. 碎碎念：黄光星 2023 年的工作与生活
 #+DATE: 2024-02-04T21:24:33+0800
-#+LASTMOD: 2024-02-04T22:06:40+0800
+#+LASTMOD: 2025-01-20T22:38:20+0800
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
 #+PODCAST_DURATION: 01:12:01
 #+PODCAST_LENGTH: 20859128
-#+PODCAST_IMAGE_SRC: guests/doyoubi2.jpg
+#+PODCAST_IMAGE_SRC: guests/doyoubi2.webp
 
 这一期是 2024 新春特别节目，与老朋友黄光星来聊一聊他的 2023 年的工作与生活。也提前祝听友们新年快乐！
 

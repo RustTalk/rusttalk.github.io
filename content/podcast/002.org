@@ -1,9 +1,9 @@
 #+TITLE: 002. 与黄光星畅聊 Rust、Redis 与新加坡
 #+DATE: 2022-02-02T19:37:37+0800
-#+LASTMOD: 2023-04-23T19:21:43+0800
+#+LASTMOD: 2025-01-20T22:38:20+0800
 #+PODCAST_DURATION: 01:11:27
 #+PODCAST_LENGTH: 34679352
-#+PODCAST_IMAGE_SRC: guests/doyoubi.jpg
+#+PODCAST_IMAGE_SRC: guests/doyoubi.webp
 #+PODCAST_IFRAME:  https://podcasters.spotify.com/pod/show/rusttalk/embed/episodes/002---RustRedis-e1rnc15/a-a8vu0jf
 
 * 概要

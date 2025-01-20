@@ -1,11 +1,11 @@
 #+TITLE: 012. 与马道长畅聊 Docker 发展史与 Rust 推广
 #+DATE: 2024-08-18T22:34:31+0800
-#+LASTMOD: 2024-08-19T09:10:47+0800
+#+LASTMOD: 2025-01-20T22:38:20+0800
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
 #+PODCAST_DURATION: 01:50:48
 #+PODCAST_LENGTH: 31566301
-#+PODCAST_IMAGE_SRC: guests/genedna.jpg
+#+PODCAST_IMAGE_SRC: guests/genedna.webp
 
 本期的嘉宾是马全一（网络 ID：马道长 genedna），目前在华为 2012 实验室开源管理中心，负责 Rust 国内生态发展推广工作。
 
