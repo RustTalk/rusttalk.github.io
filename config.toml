@@ -6,8 +6,8 @@ title = "RustTalk"
 theme = "zen"
 copyright = "2022 rusttalk.github.io"
 googleAnalytics = "UA-50745138-4"
-paginate = 10
-paginatePath = "page"
+pagination.pagerSize = 10
+pagination.path = "page"
 enableGitInfo = true
 
 [frontmatter]
