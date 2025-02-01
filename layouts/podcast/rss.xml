@@ -5,11 +5,11 @@
     <description>{{ .Site.Params.Podcast.Description | default .Site.Params.Description }}</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>{{ .Site.Params.Podcast.Lang | default .Site.LanguageCode }}</language>
-    {{ with .Site.Author.email -}}
-    <managingEditor>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{end}}</managingEditor>
+    {{ with .Site.Params.Author.email -}}
+    <managingEditor>{{ . }}{{ with $.Site.Params.Author.name }} ({{ . }}){{end}}</managingEditor>
     {{ end -}}
-    {{ with .Site.Author.email -}}
-    <webMaster>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{end}}</webMaster>
+    {{ with .Site.Params.Author.email -}}
+    <webMaster>{{ . }}{{ with $.Site.Params.Author.name }} ({{ . }}){{end}}</webMaster>
     {{ end -}}
     {{ with .Site.Copyright -}}
     <copyright>{{ . }}</copyright>
@@ -46,8 +46,8 @@
       <link>{{ .Permalink }}</link>
       <guid>{{ .Permalink }}</guid>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with .Site.Author.email -}}
-      <author>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</author>
+      {{ with .Site.Params.Author.email -}}
+      <author>{{ . }}{{ with $.Site.Params.Author.name }} ({{ . }}){{ end }}</author>
       {{ end -}}
       <description>
         {{ with .Site.Params.fadian }}
@@ -65,10 +65,10 @@
         </h2>
         <ul>
           <li>
-            国内：<a href="https://www.xiaoyuzhoufm.com/podcast/61d06724ee197a3aac3dab61">小宇宙</a>、<a href="/images/weixin.jpg">微信公众号</a>、<a href="/podcast/index.xml">RSS</a>
+            国内：<a href="https://www.xiaoyuzhoufm.com/podcast/61d06724ee197a3aac3dab61">小宇宙</a>、<a href="/images/weixin.jpg">微信公众号</a>
           </li>
           <li>
-            国外：<a href="https://podcasters.spotify.com/pod/show/rusttalk">Spotify for Podcasters</a>、<a href="https://podcasts.apple.com/us/podcast/rusttalk/id1602908335">Apple Podcasts</a>、<a href="https://anchor.fm/s/d2d6f254/podcast/rss">RSS</a>
+            国外：<a href="https://podcasters.spotify.com/pod/show/rusttalk">Spotify for Podcasters</a>、<a href="https://podcasts.apple.com/us/podcast/rusttalk/id1602908335">Apple Podcasts</a>、<a href="/podcast/index.xml">RSS</a>
           </li>
         </ul>
         <img src="/misc/xyz-qrcode.webp"/>
@@ -78,8 +78,8 @@
         {{ printf "<h2> 反馈 ✉️ </h2><ul><li>发现内容错误或链接失效？欢迎<a href='%s/blob/master/content/%s'>提交 PR</a></li><li>对节目有想法或建议？欢迎来信交流：<a href='mailto:%s'>%s</a></li></ul>"
         .Site.Params.git_repo
         .File.Path
-        .Site.Author.email
-        .Site.Author.email
+        .Site.Params.Author.email
+        .Site.Params.Author.email
         }}
       </description>
       {{ if .Params.podcast_mp3}}

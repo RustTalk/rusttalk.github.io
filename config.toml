@@ -1,21 +1,17 @@
 baseURL = "https://rusttalk.github.io"
 languageCode = "zh-cn"
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 title = "RustTalk"
 theme = "zen"
 copyright = "2022 rusttalk.github.io"
 googleAnalytics = "UA-50745138-4"
-paginate = 10
-paginatePath = "page"
+pagination.pagerSize = 10
+pagination.path = "page"
 enableGitInfo = true
 
 [frontmatter]
   lastmod = [':git', 'lastmod', ':fileModTime', ':default']
-
-[author]
-    name = "写代码的西瓜"
-    email = "rusttalk@liujiacai.net"
 
 [[menu.main]]
   name = "播客"
@@ -48,13 +44,13 @@ enableGitInfo = true
 """
     dateformat = "2006-01-02"
     description = "RustTalk 是一档专注在 Rust 社区的程序员闲聊节目。官网：rusttalk.github.io"
-    feedlinks = false
+    feedlinks = true
     realfavicongenerator = true
     relatedposts = true
     submitted = true
     sidebar = true
     mobileMenu = true
-    copyright = "© 2022 - 2023 [RustTalk](https://github.com/RustTalk/rusttalk.github.io) Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+    copyright = "© 2022 - 2025 [RustTalk](https://github.com/RustTalk/rusttalk.github.io) Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
     poweredby = true
     # footer = "footer"
     [params.giscus]           # https://giscus.app/
@@ -64,6 +60,7 @@ enableGitInfo = true
         categoryId = "DIC_kwDOGm5vDc4CSRaH"
     [params.podcast]
         local = false
+        preload = "metadata"
         image = "logo3000.png"
         lang = "zh-cn"
         author = "写代码的西瓜"
@@ -72,3 +69,6 @@ enableGitInfo = true
         [params.podcast.owner]
             name = "写代码的西瓜"
             email = "jiacai2050@gmail.com"
+    [params.author]
+            name = "写代码的西瓜"
+            email = "rusttalk@liujiacai.net"
