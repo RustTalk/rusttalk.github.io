@@ -1,6 +1,6 @@
 baseURL = "https://rusttalk.github.io"
 languageCode = "zh-cn"
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 title = "RustTalk"
 theme = "zen"
