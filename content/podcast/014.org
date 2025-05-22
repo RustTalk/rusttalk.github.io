@@ -1,6 +1,6 @@
 #+TITLE: 014. 既生 Rust，何生 Zig
 #+DATE: 2025-05-22T18:31:14+0800
-#+LASTMOD: 2025-05-22T18:44:42+0800
+#+LASTMOD: 2025-05-22T19:01:27+0800
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
 #+PODCAST_DURATION: 19:56
@@ -12,3 +12,7 @@ Rust 和 Zig 是新时代系统语言的两个极端，一个完全不信任程�
 这是一期没有嘉宾，是由主播使用 Google NotebookLM 根据 [[https://ziglang.org/documentation/0.14.0/][Zig 文档]]生成，NotebookLM 把 Zig 的特点总结的十分到位：控制性。从单行注释，到任意精度的数字类型、多种指针类型，再到杀手锏 feature 编译时运行，而这个特性无意对写出高性能程序很有裨益。
 
 希望通过本期节目让更多人了解 Zig 语言，尤其是它的编译时运行特性。Zig 的编译时运行允许你在编译时执行代码，这意味着你可以在编译时计算常量、生成代码或进行其他操作。这种特性使得 Zig 在性能和灵活性方面具有很大的优势。
+
+* 链接
+- [[https://ziglang.cc/monthly/202209/][Rust 与 Zig 关于安全的争论]]
+- [[https://github.com/ghostty-org/ghostty][ghostty-org/ghostty]] 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
