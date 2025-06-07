@@ -1,0 +1,23 @@
+#+TITLE: 015. 与 Meta 工程师 Nero 聊 Buck2 与 Rust 构建
+#+DATE: 2025-06-07T12:53:01+0800
+#+LASTMOD: 2025-06-07T13:26:35+0800
+#+OPTIONS: toc:nil num:nil
+#+STARTUP: content
+#+PODCAST_DURATION: 59:18
+#+PODCAST_LENGTH: 18834616
+#+PODCAST_IMAGE_SRC: guests/nero.webp
+
+本期的嘉宾是 Meta 的工程师 [[https://github.com/Nero5023][Nero]]，他是 [[https://buck2.build/][Buck2]] 的核心开发者之一。我们将讨论 Rust 在 Meta 的应用、Buck2 的设计理念和特点以及 Buck2 是如何加速 Rust 的构建。
+
+#+begin_quote
+背景补充：Buck2 是 Meta 开源的一个构建系统，可以类比 [[https://bazel.build/][Bazel]]。它的设计理念是提供更快、更可靠的构建体验，同时支持大规模的代码库。Buck2 的特点包括增量构建、并行执行和可扩展性，使其适用于大型项目和复杂的构建需求。
+#+end_quote
+* 链接
+- Buck2 相关链接
+  - [[https://discord.gg/feycVrNm][Discord 用户群]]
+  - cargo buck 转化工具：https://github.com/facebookincubator/reindeer
+  - [[https://buck2.build/docs/getting_started/tutorial_first_build/][Tutorial: Your First Buck2 Application | Buck2]]
+- [[https://www.youtube.com/c/JonGjengset][Jon Gjengset - YouTube]]: The streams are intended for users who are already somewhat familiar with Rust, but who want to see something larger and more involved be built.
+- [[https://engineering.fb.com/2022/11/15/open-source/sapling-source-control-scalable/][Sapling: Source control that’s user-friendly and scalable]]
+- [[https://github.com/bazelbuild/starlark][bazelbuild/starlark]] 是一种用于配置的语言。它是为 Bazel 构建系统设计的，但也可能对其他项目有用。Starlark 是 Python 的一种方言。与 Python 一样，它是一种动态类型语言，具有高级数据类型、具有词法作用域的一级函数和垃圾回收功能。
+- [[https://github.com/r2cn-dev/buck2-rust-third-party][r2cn-dev/buck2-rust-third-party]]: A collection of BUCK files about rust crate
