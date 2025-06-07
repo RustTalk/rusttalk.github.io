@@ -1,6 +1,6 @@
 #+TITLE: 015. 与 Meta 工程师 Nero 聊 Buck2 与 Rust 构建
 #+DATE: 2025-06-07T12:53:01+0800
-#+LASTMOD: 2025-06-07T13:26:35+0800
+#+LASTMOD: 2025-06-07T13:37:38+0800
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
 #+PODCAST_DURATION: 59:18
@@ -21,3 +21,9 @@
 - [[https://engineering.fb.com/2022/11/15/open-source/sapling-source-control-scalable/][Sapling: Source control that’s user-friendly and scalable]]
 - [[https://github.com/bazelbuild/starlark][bazelbuild/starlark]] 是一种用于配置的语言。它是为 Bazel 构建系统设计的，但也可能对其他项目有用。Starlark 是 Python 的一种方言。与 Python 一样，它是一种动态类型语言，具有高级数据类型、具有词法作用域的一级函数和垃圾回收功能。
 - [[https://github.com/r2cn-dev/buck2-rust-third-party][r2cn-dev/buck2-rust-third-party]]: A collection of BUCK files about rust crate
+- David Tolnay 的 [[https://github.com/dtolnay/buck2-rustc-bootstrap][buck2-rustc-bootstrap]] 项目，用 buck2 实现 Rust 编译器自身的构建。
+  - Cold build without cache:  32% faster
+  - Incremental: 1.625s vs 2.6s
+- buck2 本身构建时间对比
+  - Cargo build buck2: 2min20s
+  - buck2 build buck2: 1min26s
