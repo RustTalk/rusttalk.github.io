@@ -1,6 +1,6 @@
 #+TITLE: 016. Rustup 团队负责人 Gen Li 的开源历程
 #+DATE: 2026-08-06T21:20:31+0800
-#+LASTMOD: 2026-08-06T21:50:55+0800
+#+LASTMOD: 2026-08-06T21:59:05+0800
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
 #+PODCAST_DURATION: 01:41:23
@@ -17,10 +17,12 @@
 - 新手建议：对于想要参与 Rust 官方项目或开源社区的新人，有哪些切实可行的建议和经验？
 
 如果你对开源社区的运作方式、Rust 工具链幕后的故事，或者年轻开发者的成长路径感兴趣，那么这一期节目你一定不能错过。
+
 * 链接
+- [[https://www.adacore.com/][Commercial Software Solutions for Ada, SPARK, Rust, C and… | AdaCore]]
 - [[https://github.com/rami3l/pacaptr][rami3l/pacaptr]]，跨平台的包管理器调用工具
 - [[https://github.com/clap-rs/clap/pull/2501][clap #2501]]，嘉宾给 clap 贡献的第一个 PR
-- [[https://blog.rust-lang.org/inside-rust/2026/07/07/maintainer-spotlight-gen-li-rami3l/][Maintainer spotlight: Gen Li (@rami3l)]] ，嘉宾之前的采访
+- [[https://blog.rust-lang.org/inside-rust/2026/07/07/maintainer-spotlight-gen-li-rami3l/][Maintainer spotlight: Gen Li (@rami3l)]]，嘉宾之前的采访
 - 嘉宾分享
   - [[https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book.html][Structure and Interpretation of Computer Programs]]
   - [[https://craftinginterpreters.com/][Crafting Interpreters]]
