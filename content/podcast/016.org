@@ -1,6 +1,6 @@
 #+TITLE: 016. Rustup 团队负责人 Gen Li 的开源历程
 #+DATE: 2026-08-06T21:20:31+0800
-#+LASTMOD: 2026-08-06T21:59:05+0800
+#+LASTMOD: 2026-08-07T09:46:57+0800
 #+OPTIONS: toc:nil num:nil
 #+STARTUP: content
 #+PODCAST_DURATION: 01:41:23
@@ -11,7 +11,7 @@
 
 本期我们非常荣幸邀请到了 Rustup 团队负责人 [[https://github.com/rami3l][Gen Li]]（rami3l）。作为一名毕业刚两年的“开源新人”，Gen 在短短几年内实现了令人惊叹的跨越：从最开始试水开源、提交小的 PR，到深入参与 Rust 官方工具链的维护，再到如今作为 Team Leader 带领团队推动 Rustup 的演进与发展。
 
-在本期节目中，我们将和 Gen 聊聊：
+在本期节目中，我们将和 Gen 聊到：
 - 成长轨迹：他是如何从一个开源菜鸟一步步成长为核心团队负责人的？
 - 工具链幕后：Rustup 团队的日常协作机制是怎样的？在面对庞大的全球用户基数与复杂的跨平台兼容性时，他们面临哪些挑战？
 - 新手建议：对于想要参与 Rust 官方项目或开源社区的新人，有哪些切实可行的建议和经验？
@@ -19,9 +19,10 @@
 如果你对开源社区的运作方式、Rust 工具链幕后的故事，或者年轻开发者的成长路径感兴趣，那么这一期节目你一定不能错过。
 
 * 链接
-- [[https://www.adacore.com/][Commercial Software Solutions for Ada, SPARK, Rust, C and… | AdaCore]]
+- [[https://www.adacore.com/][AdaCore]]，是一家成立于 1994 年的软件公司，专注于为航空航天、国防、铁路和汽车等高安全性要求（Safety-critical）的行业提供开发工具和支持服务。该公司以 Ada 编程语言及其形式化验证子集 SPARK 闻名，并提供强大的代码分析与认证支持，总部位于法国巴黎。
 - [[https://github.com/rami3l/pacaptr][rami3l/pacaptr]]，跨平台的包管理器调用工具
-- [[https://github.com/clap-rs/clap/pull/2501][clap #2501]]，嘉宾给 clap 贡献的第一个 PR
+- [[https://github.com/clap-rs/clap/pull/2501][fix: flag_subcommands unexpected behavior after long arg #2501]]，嘉宾给 clap 贡献的第一个 PR
+- [[https://github.com/rust-lang/rustup/issues][rustup 带 easy 标签的 issues]]
 - [[https://blog.rust-lang.org/inside-rust/2026/07/07/maintainer-spotlight-gen-li-rami3l/][Maintainer spotlight: Gen Li (@rami3l)]]，嘉宾之前的采访
 - 嘉宾分享
   - [[https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book.html][Structure and Interpretation of Computer Programs]]
